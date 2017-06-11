@@ -39,20 +39,27 @@
                 <div class="t03">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" width="660" height="25" alt="WHAT'S NEW 新着情報" />
                     <ul id="news">
-                        <li>2017.00.00　◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯</li>
-                        <li>2017.00.00　◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯</li>
-                        <li>2017.00.00　◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯</li>
-                        <li>2017.00.00　◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯</li>
-                        <li>2017.00.00　◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯</li>
+                        <?php $loop = new WP_Query( array( 'post_type' => 'news', 'posts_per_page' => 7 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <li><?php the_time('Y.m.d'); ?><span>&nbsp;&nbsp;</span>
+                            <?php if(get_post_meta($post->ID,'URL',true)): ?>
+                            <a href="<?php echo get_post_meta($post->ID,"URL",true); ?>" target="_self"><?php the_title(); ?></a>
+                            <?php else: the_title(); endif; ?>
+                            <?php if(get_post_meta($post->ID,'新着情報',true)): ?>
+                            <br /><span style="margin-left:80px;"><?php echo get_post_meta($post->ID,"新着情報",true); ?></span>
+                            <?php endif; ?>
+                        </li>
+                        <?php endwhile; ?>
                     </ul>
                 </div>
                 <div class="t03">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/flier_title.gif" width="180" height="20" alt="WEB FLIER WEBチラシ" />
-                    <div>    
-                        <div style="width: 186px; height: 186px; border: 8px solid #E1DDCF; float: left;"></div>
-                        <div style="width: 186px; height: 186px; border: 8px solid #E1DDCF; float: right;"></div>
-                        <div style="width: 186px; height: 186px; border: 8px solid #E1DDCF; float: right; margin-right: 25px; margin-bottom: 25px;"></div>
-                    </div>
+                    <ul>
+                        <?php $loop = new WP_Query( array( 'post_type' => 'web', 'posts_per_page' => 1 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <?php if(get_post_meta($post->ID,'PDF',true)): ?>
+                        <?php $pdfsrc1 = wp_get_attachment_url(get_post_meta($post->ID,"PDF",true)); ?>
+                        <li><a href="<?php echo $pdfsrc1; ?>" target="_blank"><img src="/images/web_btn_off.png" width="230" height="105" alt="Webチラシ｜三幸住研のWebチラシをチェック" /></a></li>
+                        <?php endif; endwhile; ?>
+                    </ul>
                 </div>
                 <div class="t03">
                     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
