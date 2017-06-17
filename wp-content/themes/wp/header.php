@@ -1,40 +1,46 @@
-<!doctype html>
-<html>
+<?php
+/*
+    FELIX HOUSE
+*/
+?><!doctype html>
+<html lang="ja">
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="keywords" content="FELIX HOUSE,住まいのパイオニアだからできること" />
+<meta name="viewport" content="width=device-width">
 <title><?php wp_title ( '|', true,'right' ); ?><?php bloginfo('name'); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css"/>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.sliderPro.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/css/slider-pro.css" rel="stylesheet" />
-<?php wp_head(); ?>
 <script type="text/javascript">
-$( document ).ready(function( $ ) {
-    $('#thumb-h').sliderPro({
-        width:960,//横幅
-        height:380,
-        buttons: false,//ナビゲーションボタン
-        shuffle: true,//スライドのシャッフル
-        thumbnailWidth: 150,//サムネイルの横幅
-        thumbnailHeight: 75,//サムネイルの縦幅
-        slideDistance:20,//スライド同士の距離
-        arrows:true,
-        slideDistance:20,//スライド同士の距離
-        visibleSize: '100%',//前後のスライドを表示
-        breakpoints: {
-            480: {//表示方法を変えるサイズ
-                thumbnailWidth: 110,
-                thumbnailHeight: 40
+    /* global $ */
+    $( document ).ready(function( $ ) {
+        $('#thumb-h').sliderPro({
+            width:960,//横幅
+            height:380,
+            buttons: false,//ナビゲーションボタン
+            shuffle: true,//スライドのシャッフル
+            thumbnailWidth: 150,//サムネイルの横幅
+            thumbnailHeight: 75,//サムネイルの縦幅
+            slideDistance:20,//スライド同士の距離
+            arrows:true,
+            slideDistance:20,//スライド同士の距離
+            visibleSize: '100%',//前後のスライドを表示
+            breakpoints: {
+                480: {//表示方法を変えるサイズ
+                    thumbnailWidth: 110,
+                    thumbnailHeight: 40
+                }
             }
-        }
+        });
     });
-});
 </script>
+<?php //wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 	<div id="header">
     	<div id="headerR">
     		<div id="headerRL">
@@ -47,7 +53,7 @@ $( document ).ready(function( $ ) {
                 </p>
     		</div>
         </div>
-    	<h2><img src="<?php echo get_template_directory_uri(); ?>/common/header_logo.jpg" width="250" height="80" alt="FELIX HOUSE｜住まいのパイオニアだからできること" /></h2>
+    	<h2><a href="/" ><img src="<?php echo get_template_directory_uri(); ?>/common/header_logo.jpg" width="250" height="80" alt="FELIX HOUSE｜住まいのパイオニアだからできること" /></a></h2>
     	
     </div>
 	<div id="nav">

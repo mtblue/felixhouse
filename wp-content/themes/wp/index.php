@@ -32,7 +32,7 @@
               </div>
         <!--/ thumb-h--></div>
     </div>
-    
+
 	<div id="wrapper">
     	<div id="t02">
     		<div id="t02L">
@@ -53,19 +53,21 @@
                 </div>
                 <div class="t03">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/flier_title.gif" width="180" height="20" alt="WEB FLIER WEBチラシ" />
-                    <ul>
-                        <?php $loop = new WP_Query( array( 'post_type' => 'web', 'posts_per_page' => 1 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                    <ul id="wf">
+                        <?php $loop = new WP_Query( array( 'post_type' => 'web', 'posts_per_page' => 3 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
                         <?php if(get_post_meta($post->ID,'PDF',true)): ?>
                         <?php $pdfsrc1 = wp_get_attachment_url(get_post_meta($post->ID,"PDF",true)); ?>
-                        <li><a href="<?php echo $pdfsrc1; ?>" target="_blank"><img src="/images/web_btn_off.png" width="230" height="105" alt="Webチラシ｜三幸住研のWebチラシをチェック" /></a></li>
+                        <li><a href="<?php echo $pdfsrc1; ?>" target="_blank"><img src="/images/web_btn_off.png" width="184" height="184" alt="Webチラシ｜三幸住研のWebチラシをチェック" /></a></li>
                         <?php endif; endwhile; ?>
                     </ul>
                 </div>
                 <div class="t03">
-                    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
+                    <a href="/webflier/"><img src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
                 </div>
-                <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/hl_img.jpg" width="660" height="615" alt="HOUSE LINEUP" />
+                <div class="mobileHidden">
+                    <div class="t03">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/hl_img.jpg" width="660" height="615" alt="HOUSE LINEUP" />
+                    </div>
                 </div>
                 <div class="t03">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/topics_title.gif" width="660" height="26" alt="TOPICS トピックス" />

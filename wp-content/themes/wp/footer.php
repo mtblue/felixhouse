@@ -53,6 +53,7 @@
 		</div>
         <p class="copyright">〒560-0054　大阪府豊中市桜の町3丁目6-7<br />Copyright &copy; 三幸住研 All rigths reserved.</p>
 	</div>
+	</div>
 <?php wp_footer(); ?>
 </body>
 </html>
