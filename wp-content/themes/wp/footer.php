@@ -11,7 +11,7 @@
                 </div>
                 
 				<div id="contact">
-                    <p>住まいに関するご相談・ご質問などお気軽にお問い合わせ下さい。</p>
+                    <p class="mobileHidden">住まいに関するご相談・ご質問などお気軽にお問い合わせ下さい。</p>
 					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact01.gif" width="170" height="30" alt="資料請求" /></a>
 					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact02.gif" width="170" height="30" alt="お問い合わせ" /></a>
 			</div>
