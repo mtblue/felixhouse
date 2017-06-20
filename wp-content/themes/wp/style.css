@@ -770,6 +770,17 @@ Version:1.0
 		width: 980px;
 		text-align: center;
 	}
+	/*コピーライト表記*/
+	.copyright {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	    border-top: 1px solid white;
+	    width: 960px;
+		margin-right: auto;
+		margin-left: auto;
+	    line-height: 25px;
+	}
 }
   
 /* smartPhone */
@@ -797,5 +808,17 @@ Version:1.0
 		display: block;
 		overflow: hidden;
 		text-align: center;
+	}
+	#footer #companymenu dt,
+	#footer #companymenu dd {
+	    border-top: 1px solid white;
+		padding: 10px;
+		font-size: 14px;
+	}
+	.copyright {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	    border-top: 1px solid white;
 	}
 }

@@ -48,17 +48,6 @@ h6 {
 	font-size: 107%; /*14pxに相当*/
 }
 
-/*コピーライト表記*/
-.copyright {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 30px;
-    border-top: 1px solid white;
-    width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-    line-height: 25px;
-}
 
 
 /*===================================================

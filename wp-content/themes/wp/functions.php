@@ -141,5 +141,3 @@ function my_form_tag_filter($tag){
 add_filter('wpcf7_form_tag', 'my_form_tag_filter', 11);
 
 ?>
-
-?>

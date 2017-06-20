@@ -37,7 +37,7 @@
         });
     });
 </script>
-<?php //wp_head(); ?>
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -54,7 +54,6 @@
     		</div>
         </div>
     	<h2><a href="/" ><img src="<?php echo get_template_directory_uri(); ?>/common/header_logo.jpg" width="250" height="80" alt="FELIX HOUSE｜住まいのパイオニアだからできること" /></a></h2>
-    	
     </div>
 	<div id="nav">
     	<ul>
