@@ -59,7 +59,7 @@ Version:1.0
 		margin-top: 30px;
 	    border-top: 7px solid #E1DDCF;
 	    padding-top: 20px;
-	    background-image: url(images/bg.png)
+	    background-image: url(images/bg.png);
 	}
 	#wrapper #t01 {
 		display: block;
@@ -172,6 +172,8 @@ Version:1.0
 		width: 184px;
 		float: left;
 		margin-bottom: 30px;
+		font-size: 0;
+		line-height: 0;
 	}
 	#wrapper #t02 #t02L .t03 #wf li:first-child {
 		margin-right: 30px;
@@ -781,6 +783,10 @@ Version:1.0
 		margin-left: auto;
 	    line-height: 25px;
 	}
+	.pcHidden,
+	.slimmenu {
+		display: none !important;
+	}
 }
   
 /* smartPhone */
@@ -792,13 +798,65 @@ Version:1.0
 	.mobileHidden {
 		display: none;
 	}
-	#wrapper #t02 {
+	h1 {
+		text-align: center;
+		width: 100%;
+		font-size: 1em;
+	}
+	h2 {
+		text-align: center;
+		width: 100%;
+	}
+	#wrapper #t02 #t02L{
 		margin-top: 30px;
 		margin-right: auto;
 		margin-left: auto;
+		text-align: center;
+		width: 90%;
 	}
-	#wrapper #t02 #t02L .t03{
-	    margin-bottom: 60px;
+	#wrapper #t02 #t02L .t03 {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#wrapper #t02 #t02L .t03 #news {
+	    overflow-y: scroll;
+		margin-right: auto;
+		margin-left: auto;
+	    height: 250px;
+	    margin-bottom: 30px;
+	    width:88%;
+	}
+	#wrapper #t02 #t02L .t03 #news li {
+	    padding-top: 9px;
+	    height: 50px;
+	    border-bottom: 1px dashed gray;
+	    text-align: left;
+	}
+	#wrapper #t02 #t02L img.title {
+		width: 88%;
+	}
+	#wrapper #t02 #t02L .ts01 {
+		margin-top: 30px;
+	}
+	#wrapper #t02 #t02L .ts01 img {
+		margin-bottom: 10%;
+	}
+	#wrapper #t02 #t02L .left {
+		float: left;
+		width: 49%;
+	}
+	#wrapper #t02 #t02L .right {
+		float: right;
+		width: 49%;
+	}
+	#wrapper #t02 #t02L .t03 #wf li {
+		border: 8px solid #E1DDCF;
+		width: 88%;
+		margin-bottom: 30px;
+		font-size: 0;
+		line-height: 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	/*フッター*/
 	#footer #footermain {
@@ -809,12 +867,20 @@ Version:1.0
 		overflow: hidden;
 		text-align: center;
 	}
+	#footer #contact img {
+		margin-top: 30px;
+		width: 80%;
+	}
+	#footer #company {
+		margin-top: 40px;
+	}
 	#footer #companymenu dt,
 	#footer #companymenu dd {
 	    border-top: 1px solid white;
 		padding: 10px;
 		font-size: 14px;
 	}
+	
 	.copyright {
 		text-align: center;
 		padding-top: 20px;

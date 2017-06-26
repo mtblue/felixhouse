@@ -5,15 +5,18 @@
 ?><!doctype html>
 <html lang="ja">
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="keywords" content="FELIX HOUSE,住まいのパイオニアだからできること" />
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php wp_title ( '|', true,'right' ); ?><?php bloginfo('name'); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css"/>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.sliderPro.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.sliderPro.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.slimmenu.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/css/slider-pro.css" rel="stylesheet" />
+<link href="<?php echo get_template_directory_uri(); ?>/css/slimmenu.min.css" rel="stylesheet" />
 <script type="text/javascript">
     /* global $ */
     $( document ).ready(function( $ ) {
@@ -23,17 +26,27 @@
             buttons: false,//ナビゲーションボタン
             shuffle: true,//スライドのシャッフル
             thumbnailWidth: 150,//サムネイルの横幅
-            thumbnailHeight: 75,//サムネイルの縦幅
+            thumbnailHeight: 40,//サムネイルの縦幅
+            thumbnailsPosition: 'bottom',//サムネイルの位置
+            thumbnailPointer: true,
             slideDistance:20,//スライド同士の距離
             arrows:true,
             slideDistance:20,//スライド同士の距離
             visibleSize: '100%',//前後のスライドを表示
             breakpoints: {
-                480: {//表示方法を変えるサイズ
+                960: {//表示方法を変えるサイズ
                     thumbnailWidth: 110,
                     thumbnailHeight: 40
                 }
             }
+        });
+        $('.slimmenu').slimmenu(
+        {
+            resizeWidth: '960',
+            collapserTitle: '',
+            animSpeed:'medium',
+            indentChildren: true,
+            childrenIndenter: '&raquo;'
         });
     });
 </script>
@@ -56,11 +69,18 @@
     	<h2><a href="/" ><img src="<?php echo get_template_directory_uri(); ?>/common/header_logo.jpg" width="250" height="80" alt="FELIX HOUSE｜住まいのパイオニアだからできること" /></a></h2>
     </div>
 	<div id="nav">
-    	<ul>
-        	<li><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_off.jpg" width="192" height="50" alt="フェリックスハウス" /></a></li>
-        	<li><a href="townconsept/index.html"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi02_off.jpg" width="192" height="50" alt="商品ラインナップ" /></a></li>
-        	<li><a href="location/index.html"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi03_off.jpg" width="192" height="50" alt="施工事例" /></a></li>
-        	<li><a href="modelplan/index.html"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi04_off.jpg" width="192" height="50" alt="会社案内" /></a></li>
-        	<li><a href="whatsuden/index.html"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi05_off.jpg" width="192" height="50" alt="お客様の声" /></a></li>
+        <ul>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_off.jpg" width="192" height="50" alt="フェリックスハウス" /></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi02_off.jpg" width="192" height="50" alt="商品ラインナップ" /></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi03_off.jpg" width="192" height="50" alt="施工事例" /></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi04_off.jpg" width="192" height="50" alt="会社案内" /></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi05_off.jpg" width="192" height="50" alt="お客様の声" /></a></li>
         </ul>
     </div>
+    <ul class="slimmenu">
+        <li><a href="#">フェリックスハウス</a></li>
+        <li><a href="#">商品ラインナップ</a></li>
+        <li><a href="#">施工事例</a></li>
+        <li><a href="#">会社案内</a></li>
+        <li><a href="#">お客様の声</a></li>
+    </ul>

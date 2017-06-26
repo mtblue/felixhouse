@@ -37,10 +37,10 @@
     	<div id="t02">
     		<div id="t02L">
                 <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" width="660" height="25" alt="WHAT'S NEW 新着情報" />
+                    <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" alt="WHAT'S NEW 新着情報" />
                     <ul id="news">
                         <?php $loop = new WP_Query( array( 'post_type' => 'news', 'posts_per_page' => 7 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                        <li><?php the_time('Y.m.d'); ?><span>&nbsp;&nbsp;</span>
+                        <li><?php the_time('Y.m.d'); ?><span class="mobileHidden">&nbsp;&nbsp;</span><span class="pcHidden"><br /></span>
                             <?php if(get_post_meta($post->ID,'URL',true)): ?>
                             <a href="<?php echo get_post_meta($post->ID,"URL",true); ?>" target="_self"><?php the_title(); ?></a>
                             <?php else: the_title(); endif; ?>
@@ -52,17 +52,17 @@
                     </ul>
                 </div>
                 <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/flier_title.gif" width="180" height="20" alt="WEB FLIER WEBチラシ" />
+                    <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/flier_title.gif" alt="WEB FLIER WEBチラシ" />
                     <ul id="wf">
-                        <?php $loop = new WP_Query( array( 'post_type' => 'web', 'posts_per_page' => 3 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <?php $i=0; $loop = new WP_Query( array( 'post_type' => 'web', 'posts_per_page' => 3 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
                         <?php if(get_post_meta($post->ID,'PDF',true)): ?>
                         <?php $pdfsrc1 = wp_get_attachment_url(get_post_meta($post->ID,"PDF",true)); ?>
-                        <li><a href="<?php echo $pdfsrc1; ?>" target="_blank"><img src="/images/web_btn_off.png" width="184" height="184" alt="Webチラシ｜三幸住研のWebチラシをチェック" /></a></li>
+                        <li <?php if($i!=0) echo 'class="mobileHidden"' ; $i++; ?>><a href="<?php echo $pdfsrc1; ?>" target="_blank"><img src="/images/web_btn_off.png" alt="Webチラシ｜三幸住研のWebチラシをチェック" /></a></li>
                         <?php endif; endwhile; ?>
                     </ul>
                 </div>
                 <div class="t03">
-                    <a href="/webflier/"><img src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
+                    <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
                 </div>
                 <div class="mobileHidden">
                     <div class="t03">
@@ -70,36 +70,36 @@
                     </div>
                 </div>
                 <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/topics_title.gif" width="660" height="26" alt="TOPICS トピックス" />
+                    <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/topics_title.gif" alt="TOPICS トピックス" />
                     <div class="ts01">
                         <ul>
-                            <li>
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/topics_01.jpg" width="200" height="230" alt="FELIX HOUSE" />
-                                <p>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                            <li class="left">
+                              <img src="<?php echo get_template_directory_uri(); ?>/images/topics_01.jpg" alt="FELIX HOUSE" />
+                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
                             </li>
-                            <li>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_02.jpg" width="200" height="230" alt="数珠つなぎ" />
-                                <p>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                            <li class="right">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_02.jpg" alt="数珠つなぎ" />
+                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
                             </li>
-                            <li>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_03.jpg" width="200" height="230" alt="TOWN COMMUNITY" />
-                                <p>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                            <li class="left">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_03.jpg" alt="TOWN COMMUNITY" />
+                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
                             </li>
                         </ul>
                     </div>
                     <div class="ts01">
                         <ul>
-                            <li>
+                            <li class="right">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/topics_04.jpg" width="200" height="230" alt="FELIX LIFE SUPPORT 24" />
-                                <p>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
                             </li>
-                            <li>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_05.jpg" width="200" height="230" alt="STAFF" />
-                                <p>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                            <li class="left">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_05.jpg" alt="STAFF" />
+                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
                             </li>
-                            <li>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_06.jpg" width="200" height="230" alt="BLOG" />
-                                <p>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                            <li class="right">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_06.jpg" alt="BLOG" />
+                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
                             </li>
                         </ul>
                     </div>
