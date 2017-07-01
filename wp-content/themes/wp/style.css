@@ -460,6 +460,7 @@ Version:1.0
 	}
 	#wrapper #t02 #t02L .blog .thumbnail {
 		margin: 15px 0;
+		max-width: 640px;
 	}
 	#wrapper #t02 #t02L .blog .next {
 		text-align: right;
