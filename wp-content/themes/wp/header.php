@@ -62,7 +62,7 @@
     		<div id="headerRR">
     			<p id="headercontact">
                     <span><img src="<?php echo get_template_directory_uri(); ?>/common/header_tel.jpg" width="250" height="50" alt="TEL 06-4867-3000" /></span>
-                    <a href="http://infini-home.jp/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/header_contact.jpg" width="190" height="50" alt="資料請求・お問い合わせ" /></a>
+                    <a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/header_contact.jpg" width="190" height="50" alt="資料請求・お問い合わせ" /></a>
                 </p>
     		</div>
         </div>
@@ -84,3 +84,4 @@
         <li><a href="#">会社案内</a></li>
         <li><a href="#">お客様の声</a></li>
     </ul>
+    <?php breadcrumb(); ?>

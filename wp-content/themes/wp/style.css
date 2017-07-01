@@ -39,6 +39,8 @@ Version:1.0
 	}
 	/*グローバルナビ*/
 	#nav {
+	    border-bottom: 7px solid #E1DDCF;
+	    padding-bottom: 20px;
 	}
 	#nav ul {
 		display: block;
@@ -57,8 +59,6 @@ Version:1.0
 		margin-right: auto;
 		margin-left: auto;
 		margin-top: 30px;
-	    border-top: 7px solid #E1DDCF;
-	    padding-top: 20px;
 	    background-image: url(images/bg.png);
 	}
 	#wrapper #t01 {
@@ -136,6 +136,11 @@ Version:1.0
 		float: left;
 	    width: 660px;
 	}
+	#wrapper #t02 #t02L .title{
+	    border-bottom: 7px solid #E1DDCF;
+		margin-top: 5px;
+		margin-bottom: 20px;
+	}
 	#wrapper #t02 #t02L .t03{
 	    margin-bottom: 60px;
 	}
@@ -174,6 +179,11 @@ Version:1.0
 		margin-bottom: 30px;
 		font-size: 0;
 		line-height: 0;
+		text-align: center;
+		height: 155px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	#wrapper #t02 #t02L .t03 #wf li:first-child {
 		margin-right: 30px;
@@ -302,6 +312,9 @@ Version:1.0
 	#footer #companymenu {
 		text-align: left;
 	}
+	#footer #companymenu a {
+		text-decoration: none;
+	}
 	#footer #companymenu dl {
 		float: left;
 	    width: 192px;
@@ -329,448 +342,33 @@ Version:1.0
 		color: #000;
 		text-decoration: none;
 	}
-	/*ロケーション*/
-	#wrapper #ac01 {
-		display: block;
-		clear: both;
-		overflow: hidden;
-		background-color: #81DAF5;
-	}
-	#wrapper #ac02 {
-		clear: both;
-		width: 980px;
+	#breadcrumb {
+		width: 960px;
 		margin-right: auto;
 		margin-left: auto;
-		margin-top: 40px;
-		height: 451px;
+		margin-top: 5px;
 	}
-	#wrapper #ac02 #ac02l {
-		float: left;
-		width: 390px;
+	#breadcrumb ul {
+	    font-size:0.9375em;
 	}
-	#wrapper #ac02 #ac02l #ac02lc {
-		width: 340px;
+	#breadcrumb ul li {
+	    display: inline;
+	    list-style: none;
 	}
-	#wrapper #ac02 #ac02l .title {
-		color: #000;
-		font-size: 32px;
-		margin-top: 50px;
-		margin-bottom: 20px;
-		line-height: 150%;
+	#breadcrumb ul li:first-child:before {
+	    content: none;
 	}
-	#wrapper #ac02 #ac02l .cont {
-		color: #000;
-		font-size: 13px;
-		line-height: 170%;
+	#breadcrumb ul li:before {
+	    content: '›';
+	    margin: 0 5px 0 0;
 	}
-	#wrapper #ac02 #ac02r {
-		float: right;
-		width: 590px;
+	#breadcrumb ul li > a{
+	    color: #333;
+	    margin-right: 5px;
+	    text-decoration: none;  
 	}
-	#wrapper #ac03 {
-		clear: both;
-		width: 980px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 40px;
-	}
-	#wrapper #ac03 #ac03t {
-		margin-bottom: 30px;
-	}
-	#wrapper #ac03 #ac03t2 {
-		margin-top: 30px;
-		margin-bottom: 100px;
-	}
-	#wrapper #ac03 #ac03i img {
-		margin-right: 5px;
-		margin-left: 4px;
-		padding-bottom: 20px;
-	}
-	#wrapper #ac03 .title {
-		color: #000;
-		font-size: 32px;
-		margin-top: 50px;
-		margin-bottom: 20px;
-		line-height: 150%;
-	}
-	#wrapper #ac03 table,
-	#wrapper #ac03 tr {
-		width: 480px;
-	}
-	#wrapper #ac03 th {
-		background-color: #ddd;
-		text-align: center;
-		width: 240px;
-		border: 1px solid #9F9FA0;
-	}
-	#wrapper #ac03 td {
-		text-align: center;
-		width: 240px;
-		border: 1px solid #9F9FA0;
-	}
-	#wrapper #ac03 #ac03tl {
-		float: left;
-		margin-bottom: 50px;
-	}
-	#wrapper #ac03 #ac03tr {
-		float: right;
-		margin-bottom: 50px;
-	}
-	/*モデルプラン*/
-	#wrapper #mp01 {
-		display: block;
-		clear: both;
-		overflow: hidden;
-		background-color: #81DAF5;
-	}
-	#wrapper #mp02 {
-		clear: both;
-		width: 980px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		height: 451px;
-	}
-	#wrapper #mp02 #mp02l {
-		float: left;
-		width: 390px;
-	}
-	#wrapper #mp02 #mp02l #mp02lc {
-		width: 340px;
-		margin-bottom: 40px;
-	}
-	#wrapper #mp02 #mp02l .title {
-		color: #000;
-		font-size: 30px;
-		margin-top: 50px;
-		margin-bottom: 20px;
-		line-height: 150%;
-	}
-	#wrapper #mp02 #mp02l .cont {
-		color: #000;
-		font-size: 10px;
-	}
-	#wrapper #mp02 #mp02r {
-		float: right;
-		width: 590px;
-	}
-	#wrapper #mp03 {
-		clear: both;
-		width: 980px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 40px;
-		margin-bottom: 100px;
-	}
-	#wrapper #mp03 #mp03t {
-		margin-top: 100px;
-		margin-bottom: 30px;
-	}
-	#wrapper #mp03 #mp03i {
-		margin-bottom: 60px;
-	}
-	/*モデルプラン*/
-	#wrapper #ol01 {
-		display: block;
-		clear: both;
-		overflow: hidden;
-		background-color: #81DAF5;
-	}
-	#wrapper #ol02 {
-		clear: both;
-		width: 980px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 40px;
-		margin-bottom: 100px;
-	}
-	#wrapper #ol02 #ol02t {
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-	/*間取り*/
-	#wrapper #p01 {
-		margin-bottom: 70px;
-		padding: 18px;
-		border: 1px solid #9F9FA0;
-	}
-	#wrapper #p01 ul {
-		display: block;
-		clear: both;
-		overflow: hidden;
-		margin-bottom: 30px;
-	}
-	#wrapper #p01 ul li {
-		width: 290px;
-		float: left;
-		margin-right: 25px;
-	}
-	#wrapper #p01 ul .listL {
-		margin-right: 0px;
-	}
-	#wrapper #p01 dl {
-		margin-bottom: 15px;
-	}
-	#wrapper #p01 dl dt {
-		margin-bottom: 10px;
-	}
-	#wrapper #p01 dl dd {
-		color: #333;
-		text-align: center;
-	}
-	#wrapper #p01 #p01-contact {
-		text-align: center;
-		width: 958px;
-		display: block;
-	}
-	#wrapper #p02 {
-		display: block;
-		clear: both;
-		overflow: hidden;
-	}
-	#wrapper #p02 li {
-		margin-bottom: 50px;
-	}
-	#wrapper #p02 .listL {
-		margin-bottom: 0px;
-	}
-	/*設備仕様*/
-	#wrapper #s01 {
-		margin-bottom: 50px;
-	}
-	#wrapper #snavi {
-		margin-top: 100px;
-		margin-bottom: 100px;
-	}
-	#wrapper #snavi ul {
-		display: block;
-		clear: both;
-		width: 980px;
-		overflow: hidden;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	#wrapper #snavi ul li {
-		width: 150px;
-		margin-right: 13px;
-		float: left;
-	}
-	#wrapper #snavi #equipment01 {
-		background: url("../common/equipment01_btn_over.jpg") no-repeat;
-	}
-	#wrapper #snavi #equipment02 {
-		background: url("../common/equipment02_btn_over.jpg") no-repeat;
-	}
-	#wrapper #snavi #equipment03 {
-		background: url("../common/equipment03_btn_over.jpg") no-repeat;
-	}
-	#wrapper #snavi #equipment04 {
-		background: url("../common/equipment04_btn_over.jpg") no-repeat;
-	}
-	#wrapper #snavi #equipment05 {
-		background: url("../common/equipment05_btn_over.jpg") no-repeat;
-	}
-	#wrapper #snavi #equipment06 {
-		background: url("../common/equipment06_btn_over.jpg") no-repeat;
-	}
-	#wrapper #snavi #equipment01 a,
-	#wrapper #snavi #equipment02 a,
-	#wrapper #snavi #equipment03 a,
-	#wrapper #snavi #equipment04 a,
-	#wrapper #snavi #equipment05 a,
-	#wrapper #snavi #equipment06 a {
-		display: inline-block;
-	}
-	#wrapper #snavi #equipment01 a:hover,
-	#wrapper #snavi #equipment02 a:hover,
-	#wrapper #snavi #equipment03 a:hover,
-	#wrapper #snavi #equipment04 a:hover,
-	#wrapper #snavi #equipment05 a:hover,
-	#wrapper #snavi #equipment06 a:hover {
-		background-color: transparent; /* IE6対応 */
-	}
-	#wrapper #snavi #equipment01 a:hover img,
-	#wrapper #snavi #equipment02 a:hover img,
-	#wrapper #snavi #equipment03 a:hover img,
-	#wrapper #snavi #equipment04 a:hover img,
-	#wrapper #snavi #equipment05 a:hover img,
-	#wrapper #snavi #equipment06 a:hover img {
-		visibility: hidden;
-	}
-	#wrapper #s03 {
-		clear: both;
-		width: 980px;
-		height: 600px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	#wrapper #s03bath {
-		clear: both;
-		width: 980px;
-		height: 500px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	#wrapper #s03sanitary {
-		clear: both;
-		width: 980px;
-		height: 250px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	#wrapper #s03i img {
-		margin-right: 5px;
-		margin-left: 4px;
-		padding-bottom: 20px;
-	}
-	#wrapper #s03b img {
-		margin-right: 20px;
-		margin-left: 4px;
-		padding-bottom: 20px;
-	}
-	#wrapper #s03i .exp {
-		float: left;
-		width: 230px;
-		margin-right: 15px;
-		margin-bottom: 15px;
-	}
-	#wrapper #s03i .exp dt {
-		font-size: 14px;
-		font-weight: bold;
-	}
-	#wrapper #s01 ul {
-		width: 980px;
-	}
-	#wrapper #s01 ul li {
-		margin-bottom: 70px;
-	}
-	#wrapper #s01 ul .listL {
-		margin-bottom: 0px;
-	}
-	#wrapper #s02 {
-		width: 980px;
-	}
-	#wrapper #s02 ul {
-		display: block;
-		clear: both;
-		overflow: hidden;
-	}
-	#wrapper #s02 ul li {
-		width: 210px;
-		float: left;
-		margin-right: 40px;
-	}
-	#wrapper #s02 ul .listL {
-		margin-right: 0px;
-	}
-	#wrapper #s02 .s02detail li p {
-		font-size: 12px;
-		color: #333;
-		margin-top: 10px;
-	}
-	#wrapper #s02 .s02detail li p .bold {
-		font-size: 15px;
-		font-weight: bold;
-		color: #161B61;
-	}
-	#wrapper #s02 .s02detail {
-		margin-bottom: 50px;
-	}
-	#bread {
-		width: 980px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	#wrapper #s02 #s03 {
-		width: 980px;
-		display: block;
-	}
-	/*周辺環境*/
-	#wrapper #lo01 {
-		margin-bottom: 100px;
-		display: block;
-		clear: both;
-		overflow: hidden;
-	}
-	#wrapper #lo01 #lo01L {
-		float: left;
-		width: 600px;
-	}
-	#wrapper #lo01 dl {
-		float: right;
-		width: 300px;
-	}
-	#wrapper #lo01 dl dt {
-		margin-bottom: 20px;
-	}
-	#wrapper #lo01 dl dd {
-		font-size: 13px;
-		color: #333;
-		line-height: 23px;
-	}
-	#wrapper #lo02 {
-		margin-bottom: 100px;
-	}
-	#wrapper #lo02 ul {
-		display: block;
-		clear: both;
-		overflow: hidden;
-		margin-bottom: 30px;
-	}
-	#wrapper #lo02 ul li {
-		width: 176px;
-		float: left;
-		margin-right: 20px;
-	}
-	#wrapper #lo02 ul .listL {
-		margin-right: 0px;
-	}
-	#wrapper #lo02 #lo02detail {
-		display: block;
-		overflow: hidden;
-		margin-top: 40px;
-	}
-	#wrapper #lo03 {
-		width: 980px;
-	}
-	#wrapper #lo03 li {
-		margin-bottom: 50px;
-	}
-	#wrapper #lo03 .listL {
-		margin-bottom: 0px;
-	}
-	/*タウンコンセプト*/
-	#wrapper #c01 {
-		display: block;
-		clear: both;
-		overflow: hidden;
-		background-color: #81DAF5;
-	}
-	#wrapper #c02 {
-		width: 980px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-bottom: 40px;
-	}
-	#wrapper #c03 {
-		background-color: #81DAF5;
-		margin-bottom: 80px;
-	}
-	#wrapper #c03 #c03l {
-		margin-right: auto;
-		margin-left: auto;
-		width: 980px;
-		text-align: center;
+	#breadcrumb ul li a:hover {
+	    text-decoration: underline; 
 	}
 	/*コピーライト表記*/
 	.copyright {
@@ -786,6 +384,115 @@ Version:1.0
 	.pcHidden,
 	.slimmenu {
 		display: none !important;
+	}
+	/* webfiler */
+	#wrapper #t02 #t02L .wf01 {
+		border-bottom: 1px solid gray;
+	}
+	#wrapper #t02 #t02L .wf01 #wf {
+		clear: both;
+	}
+	#wrapper #t02 #t02L #contact {
+		margin-top: 50px;
+	}
+	#wrapper #t02 #t02L .wf01 #wf ul {
+		display:table;
+		display:table-cell;
+	}
+	#wrapper #t02 #t02L .wf01 #wf li.wfl {
+		/*float: left;*/
+		width: 200px;
+		border-top: 1px solid gray;
+		border-left: 1px solid gray;
+		text-align: center;
+		display:table-cell;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#wrapper #t02 #t02L .wf01 #wf li.wfr {
+		/*float: right;*/
+		border-top: 1px solid gray;
+		border-left: 1px solid gray;
+		border-right: 1px solid gray;
+		width: 457px;
+		display:table-cell;
+		vertical-align: top;
+	}
+	/* BLOG */
+	#wrapper #t02 #t02L #category {
+		background-color: #E1DDCF;
+		padding: 10px 20px;
+		height: 80px;
+		margin-bottom: 50px;
+	}
+	#wrapper #t02 #t02L #category h2 {
+		width: 100%;
+		text-align: left;
+		margin-top: 10px;
+	}
+	#wrapper #t02 #t02L #category li {
+		float: left;
+		list-style-type: disc;
+		margin-top: 15px;
+		margin-left: 17px;
+		margin-right: 22px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	#wrapper #t02 #t02L a {
+		text-decoration: none;
+	}
+	#wrapper #t02 #t02L .blog {
+		clear: both;
+	}
+	#wrapper #t02 #t02L .blog .btitle {
+		text-align: left;
+		border-bottom: 1px solid gray;
+		font-size: 25px;
+		line-height: 35px;
+	}
+	#wrapper #t02 #t02L .blog .cate {
+		background-color: #E1DDCF;
+		width: 150px;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	#wrapper #t02 #t02L .blog .thumbnail {
+		margin: 15px 0;
+	}
+	#wrapper #t02 #t02L .blog .next {
+		text-align: right;
+		margin-bottom: 60px;
+	}
+	#wrapper #t02 #t02L .blog pre {
+		border: none;
+		width: 100%;
+		padding: 0;
+		margin-bottom: 60px;
+	}
+	/* Contact */
+	#wrapper #t02 #t02L #formArea th {
+		width: 200px;
+	}
+	#wrapper #t02 #t02L #formArea .color {
+		color: red;
+	}
+	#wrapper #t02 #t02L #send {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.wpcf7 input[type="submit"] {
+		font-size: 100%;
+		width: 250px;
+		padding: 0.4em 0.4em;
+		background: #eee;
+		color: #333;
+		border-radius: 4px;
+		cursor: pointer;
+		box-shadow: 0 0 1px rgba(0,0,0,.2);
+		border: 1px solid #ccc;
+		text-shadow: -1px 1px 0 rgba(255,255,255,1);
 	}
 }
   

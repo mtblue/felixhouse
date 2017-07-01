@@ -484,12 +484,11 @@ textarea {
 /*テーブルの初期スタイル*/
 table {
 	margin: 0;
-	width: 960px;
+	width: 660px;
 }
 
 th,
 td {
-	width: 703px;
 	border: 1px solid #9F9FA0;
 	padding-top: 5px;
 	padding-right: 0px;
@@ -498,8 +497,6 @@ td {
 }
 
 th {
-	background-color: #CCC;
-	width: 248px;
 	text-align: center;
 	color: #333;
 	border: 1px solid #9F9FA0;

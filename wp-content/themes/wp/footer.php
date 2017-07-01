@@ -44,8 +44,8 @@
                         <dt>豊中の歴史</dt>
                     </dl>
                     <dl>
-                        <dt>数珠つなぎ</dt>
-                        <dt>地域コミュニティ</dt>
+                        <dt><a href="/category/zyuzu/">数珠つなぎ</a></dt>
+                        <dt><a href="/category/community/">地域コミュニティ</a></dt>
                         <dt>売却物件募集</dt>
                     </dl>
                 </div>

@@ -46,14 +46,7 @@ get_header(); ?>
               <div class="btitle"><?php the_title(); ?></div>
               <p class="cate"><?php the_category(', '); ?></p>
               <div class="thumbnail"><?php the_post_thumbnail(); ?></div>
-              <p><?php 
-                if(mb_strlen($post->post_content,'UTF-8')>50){
-                  $content= str_replace('\n', '', mb_substr(strip_tags($post-> post_content), 0, 50,'UTF-8'));
-	                echo $content.' …';
-                }else{
-	                echo str_replace('\n', '', strip_tags($post->post_content));
-                } ?></p>
-              <p class="next"><a href="<?php the_permalink(); ?>">続きを読む</a></p>
+              <pre><?php the_content(); ?></pre>
               
             <?php endwhile; endif; ?>
               
