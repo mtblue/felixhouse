@@ -3,7 +3,7 @@
 	<div id="wrapper">
     	<div id="t02">
     		<div id="t02L">
-                <div class="title">
+                <div class="ptitle">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
                 </div>
                 <div class="wf01">

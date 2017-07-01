@@ -16,7 +16,7 @@ get_header(); ?>
 	<div id="wrapper">
     	<div id="t02">
     		<div id="t02L">
-          <div class="title">
+          <div class="ptitle">
               <img src="<?php echo get_template_directory_uri(); ?>/images/blog/blog_title.gif" />
           </div>
     		  <div id="category">
