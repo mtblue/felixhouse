@@ -70,11 +70,11 @@
     </div>
 	<div id="nav">
         <ul>
-            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_off.jpg" width="192" height="50" alt="フェリックスハウス" /></a></li>
-            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi02_off.jpg" width="192" height="50" alt="商品ラインナップ" /></a></li>
-            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi03_off.jpg" width="192" height="50" alt="施工事例" /></a></li>
-            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi04_off.jpg" width="192" height="50" alt="会社案内" /></a></li>
-            <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi05_off.jpg" width="192" height="50" alt="お客様の声" /></a></li>
+            <li><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_off.jpg" width="192" height="50" alt="フェリックスハウス" /></a></li>
+            <li><a href="/lineup/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi02_off.jpg" width="192" height="50" alt="商品ラインナップ" /></a></li>
+            <li><a href="/works/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi03_off.jpg" width="192" height="50" alt="施工事例" /></a></li>
+            <li><a href="/company/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi04_off.jpg" width="192" height="50" alt="会社案内" /></a></li>
+            <li><a href="/interview/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi05_off.jpg" width="192" height="50" alt="お客様の声" /></a></li>
         </ul>
     </div>
     <ul class="slimmenu">
@@ -84,4 +84,4 @@
         <li><a href="#">会社案内</a></li>
         <li><a href="#">お客様の声</a></li>
     </ul>
-    <?php breadcrumb(); ?>
+    <span class="mobileHidden"><?php breadcrumb(); ?></span>

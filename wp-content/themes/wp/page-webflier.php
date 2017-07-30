@@ -18,11 +18,14 @@
                         <?php endif; ?>
                         <?php if(get_post_meta($post->ID,'コメント',true)): ?>
                             <?php $comsrc1 = get_post_meta($post->ID,"コメント",true); ?>
-                            <li class="wfr"><pre><?php echo $comsrc1; ?></pre></li>
+                            <li class="wfr">
+                                <pre><?php echo $comsrc1; ?></pre>
+                            </li>
                     </ul>
                     <?php endif; endwhile; ?>
                 </div>
                 <div id="contact"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></div>
+                <div id="contact_sp"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn_sp.jpg"></div>
             </div>
    	    	<?php get_sidebar(); ?>
         </div>

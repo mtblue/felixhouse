@@ -12,8 +12,8 @@
                 
 				<div id="contact">
                     <p class="mobileHidden">住まいに関するご相談・ご質問などお気軽にお問い合わせ下さい。</p>
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact01.gif" alt="資料請求" /></a>
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact02.gif" alt="お問い合わせ" /></a>
+					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact01.gif" alt="資料請求" /></a>
+					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact02.gif" alt="お問い合わせ" /></a>
 			</div>
 			</div>
 		</div>
@@ -35,11 +35,11 @@
                     <dl>
                         <dt>フェリックスハウス</dt>
                         <dd>フェリックスハウスの家づくり</dd>
-                        <dt>フェリックスエステート</dt>
+                        <dt><a href="felixestate">フェリックスエステート</a></dt>
                         <dt>フェリックスタウン</dt>
                     </dl>
                     <dl>
-                        <dt>フェリックスライフサポート</dt>
+                        <dt><a href="/felixlife/">フェリックスライフサポート</a></dt>
                         <dt>販売実績</dt>
                         <dt>豊中の歴史</dt>
                     </dl>
