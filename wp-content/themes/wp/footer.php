@@ -21,13 +21,13 @@
 			<div id="companymenu">
                 <div>
                     <dl>
-                        <dt>三幸住研 トップ</dt>
-                        <dt>施工事例</dt>
-                        <dt>ユーザーボイス</dt>
-                        <dt>お問い合わせ</dt>
+                        <dt><a href="/">三幸住研 トップ</a></dt>
+                        <dt><a href="/works/">施工事例</a></dt>
+                        <dt><a href="/interview/">ユーザーボイス</a></dt>
+                        <dt><a href="/contact/">お問い合わせ</a></dt>
                     </dl>
                     <dl>
-                        <dt>会社案内</dt>
+                        <dt><a href="/company/">会社案内</a></dt>
                         <dd>会社概要</dd>
                         <dd>代表挨拶</dd>
                         <dd>スタッフ紹介</dd>
@@ -40,7 +40,7 @@
                     </dl>
                     <dl>
                         <dt><a href="/felixlife/">フェリックスライフサポート</a></dt>
-                        <dt>販売実績</dt>
+                        <dt><a href="">販売実績</a></dt>
                         <dt>豊中の歴史</dt>
                     </dl>
                     <dl>
