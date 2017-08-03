@@ -65,7 +65,7 @@
                                 <dt>
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_02.jpg" />
                                 </dt>
-                                <dd>木心地のいい家Kicolo</dd>
+                                <dd>木心地のいい家<br />Kicolo</dd>
                             </dl>
                         </li>
                         <li>

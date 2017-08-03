@@ -62,7 +62,7 @@
                         <li><a href="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_img30_bg.jpg" data-lity><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_img30.jpg" /></a></li>
                     </ul>
                     <ul>
-                        <li><a href="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_im31_bg.jpg" data-lity><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_img31.jpg" /></a></li>
+                        <li><a href="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_img31_bg.jpg" data-lity><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_img31.jpg" /></a></li>
                         <li><a href="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_img32_bg.jpg" data-lity><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/works_img32.jpg" /></a></li>
                         <li><a href="" data-lity></a></li>
                     </ul>

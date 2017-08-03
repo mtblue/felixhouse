@@ -26,7 +26,7 @@
             width:960,//横幅
             height:380,
             buttons: false,//ナビゲーションボタン
-            shuffle: true,//スライドのシャッフル
+            shuffle: false,//スライドのシャッフル
             thumbnailWidth: 150,//サムネイルの横幅
             thumbnailHeight: 40,//サムネイルの縦幅
             thumbnailsPosition: 'bottom',//サムネイルの位置
