@@ -1,6 +1,6 @@
 
    	    	<div id="t02R">
-   	    		<a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/youtube.gif" width="250" height="150" alt="youtube" /></a>
+   	    		<a href="/showroom/"><img src="<?php echo get_template_directory_uri(); ?>/common/youtube.gif" width="250" height="150" alt="youtube" /></a>
    	    		<a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu01.gif" width="250" height="50" alt="豊中の歴史" /></a>
    	    		<a href="/category/zyuzu/"><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu02.gif" width="250" height="50" alt="数珠つなぎ" /></a>
    	    		<a href="/category/community/"><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu03.gif" width="250" height="50" alt="地域コミュニティ" /></a>

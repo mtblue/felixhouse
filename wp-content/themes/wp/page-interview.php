@@ -15,10 +15,10 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_img01.jpg" />
                         <div class="in02">
                             <p>◯◯◯◯◯◯◯◯◯◯◯◯◯の家。</p>
-                            <p>施主様：H様</p>
+                            <p>施主様：M様</p>
                             <p>地域：◯◯市◯区</p>
                         </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_btn.jpg" />
+                        <a href="/interview01/"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_btn.jpg" /></a>
                     </div>
                     <div class="in01r">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_img01.jpg" />
@@ -27,7 +27,7 @@
                             <p>施主様：H様</p>
                             <p>地域：◯◯市◯区</p>
                         </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_btn.jpg" />
+                        <a href="/interview02/"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_btn.jpg" /></a>
                     </div>
                 </div>
                 <div class="in01">

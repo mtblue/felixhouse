@@ -9,14 +9,16 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="keywords" content="FELIX HOUSE,住まいのパイオニアだからできること" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 <title><?php wp_title ( '|', true,'right' ); ?><?php bloginfo('name'); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css"/>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.sliderPro.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.slimmenu.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/lity.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/css/slider-pro.css" rel="stylesheet" />
 <link href="<?php echo get_template_directory_uri(); ?>/css/slimmenu.min.css" rel="stylesheet" />
+<link href="<?php echo get_template_directory_uri(); ?>/css/lity.min.css" rel="stylesheet">
 <script type="text/javascript">
     /* global $ */
     $( document ).ready(function( $ ) {
@@ -48,6 +50,11 @@
             indentChildren: true,
             childrenIndenter: '&raquo;'
         });
+        $('#menu li').hover(function(){
+            $("ul:not(:animated)", this).slideDown();
+        }, function(){
+                $("ul.child",this).slideUp();
+        });
     });
 </script>
 <?php wp_head(); ?>
@@ -69,8 +76,16 @@
     	<h2><a href="/" ><img src="<?php echo get_template_directory_uri(); ?>/common/header_logo.jpg" width="250" height="80" alt="FELIX HOUSE｜住まいのパイオニアだからできること" /></a></h2>
     </div>
 	<div id="nav">
-        <ul>
-            <li><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_off.jpg" width="192" height="50" alt="フェリックスハウス" /></a></li>
+        <ul id="menu">
+            <li>
+                <a href="/felixhouse/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_off.jpg" width="192" height="50" alt="フェリックスハウス" /></a>
+                <ul class="child">
+                    <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_01.gif" /></a></li>
+                    <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_02.gif" /></a></li>
+                    <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_03.gif" /></a></li>
+                    <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi01_04.gif" /></a></li>
+                </ul>
+            </li>
             <li><a href="/lineup/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi02_off.jpg" width="192" height="50" alt="商品ラインナップ" /></a></li>
             <li><a href="/works/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi03_off.jpg" width="192" height="50" alt="施工事例" /></a></li>
             <li><a href="/company/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi04_off.jpg" width="192" height="50" alt="会社案内" /></a></li>
