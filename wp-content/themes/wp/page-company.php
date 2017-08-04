@@ -88,25 +88,26 @@
                     <div class="cm03">
                         <div class="cm03l">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img.jpg" />
-                            <p>代表取締役　福原昌樹</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_img02.png" />
                         </div>
                         <p class="cm03r">
-                            創業昭和４６年から、ずっと家づくりをして来ました。<br />
-                            ずっといい家とはなんなのか考えています。<br />
-                            答えは出ません・・・でもそれでいいと思います。<br />
-                            最新の技術・商品を勉強し、常にベストの家づくりをしています。<br />
+                            創業昭和４６年から、家づくりに携わり<br />
+                            住まう人によりよい家とはなんなのかを考え続けてきました。<br />
+                            答えはなかなか出ません…でもそれでいいと思います。<br />
+                            最新の技術・商品を知り取り入れる事で、<br />
+                            お客様のにとって常にベストな家づくりを心掛けています。<br />
                             何が正しいのか間違いなのかをしっかり判断し<br />
-                            施主様に最高の家を提供致します。<br />
+                            施主様に最高の家を提供致し続けること。<br />
                             いつまでも熱い気持ちで最高の仕事をする会社、それが弊社であります。<br />
                             <br />
                             また私が生まれ育ったこの豊中の地に少しでも力になりたい。<br />
-                            地元の方にお世話になっていることを少しでも還元したい。<br />
+                            地元の方にお世話になっていることを少しでも還元していきたい。<br />
                             その想いから地域貢献にも尽力をあげています。<br />
-                            チャリティやたこ焼きイベントやガレージセールなど。<br />
-                            まだまだ弊社にできる地域貢献はあると思います。<br />
+                            チャリティやイベント、ガレージセール等<br />
+                            まだまだ弊社にできることはあると思います。<br />
                             色々なことにチャレンジしていきます。<br />
                             <br />
-                            近年中に５０周年を迎えます。しかし、まだまだ５０年と思っています。<br />
+                            近年中に弊社は創業５０周年を迎えます。しかし、まだまだ５０年と思っています。<br />
                             前を見て、少しずつでも前進し、１００周年に向かっていきます。<br />
                             施主様により良い家に住んで頂けるように日々努力を続けいていきます。<br />
                             弊社はこれからもこの地で施主様の笑顔の為に邁進していきます。<br />
@@ -142,11 +143,10 @@
                     </ul>
                 </div>
                 <div class="cm02">
-                    <div id="contact"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></div>
+                    <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
                 </div>
             </div>
    	    	<?php get_sidebar(); ?>
         </div>
     </div>
 <?php get_footer(); ?>
-

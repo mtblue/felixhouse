@@ -845,7 +845,7 @@ Version:1.0
 }
 */
 /* smartPhone */
-/*@media screen and (max-width: 960px) {
+/*@media screen and (max-width: 960px) {*/
 	#header #headerR #headercontact,
 	#nav,
 	#footer #footermain #footerR #tel,
@@ -854,6 +854,7 @@ Version:1.0
 	.mobileHidden {
 		display: none;
 	}
+/*
 	h1 {
 		text-align: center;
 		width: 100%;

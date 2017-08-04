@@ -39,7 +39,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/base_plan.jpg" />
                 </div>    
                 <div class="lu01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/sumica100_btn.jpg" />
+                    <a href="http://sumica100.com" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/sumica100_btn.jpg" /><a/>
                 </div>
                 <div class="lu04">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_royalhouse_logo.jpg" />
@@ -155,10 +155,10 @@
                     </ul>
                 </div>
                 <div class="lu01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/royalhouse_btn.jpg" />
+                    <a href="http://www.royal-house.co.jp/lineup/lineup.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/royalhouse_btn.jpg" /></a>
                 </div>
                 <div class="lu01">
-                    <div id="contact"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></div>
+                    <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
                 </div>
             </div>
    	    	<?php get_sidebar(); ?>

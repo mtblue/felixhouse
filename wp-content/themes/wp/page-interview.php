@@ -29,7 +29,7 @@
                     </div>
                 </div>
                  <div class="in03">
-                    <div id="contact"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></div>
+                    <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
                 </div>
             </div>
    	    	<?php get_sidebar(); ?>

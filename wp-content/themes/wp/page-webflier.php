@@ -24,7 +24,7 @@
                     </ul>
                     <?php endif; endwhile; ?>
                 </div>
-                <div id="contact"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></div>
+                <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
                 <div id="contact_sp"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn_sp.jpg"></div>
             </div>
    	    	<?php get_sidebar(); ?>

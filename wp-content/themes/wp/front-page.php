@@ -4,22 +4,22 @@
         <div id="thumb-h" class="slider-pro">
             <div class="sp-slides">
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider01.jpg" />
+                    <a href="/felixhouse/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider01.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider02_01.jpg" />
+                  <a href="/category/event/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider02_01.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider03.jpg" />
+                  <a href="/felixestate/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider03.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider04.jpg" />
+                  <a href="http://sumica100.com" target="new"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider04.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider05.jpg" />
+                  <a href="/felixlife/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider05.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider06.jpg" />
+                  <a href="/lineup/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider06.jpg" /></a>
                 </div>
               <!--/ sp-slides--></div>
               <div class="sp-thumbnails">
@@ -65,42 +65,57 @@
                 <div class="t03">
                     <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
                 </div>
+                <div class="t03">
+                   <img src="<?php echo get_template_directory_uri(); ?>/images/no-1.jpg" width="660" height=“156” alt="商品ラインナップ数No.1" />
+                </div>
                 <div class="mobileHidden">
                     <div class="t03">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/hl_img.jpg" width="660" height="615" alt="HOUSE LINEUP" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/hl_img.jpg" width="660" height="845" alt="HOUSE LINEUP" />
+                    </div>
+                    <div class="t03">
+                    <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/hl_btn.gif" width="660" height="30" alt="さらに詳しい商品ラインナップへ" /></a>
                     </div>
                 </div>
+                <div class="mobileHidden">
+                    <div class="t03">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/uservoice_img.jpg" width="660" height=“300” alt="uservoice" />
+                    </div>
+                    <div class="t03">
+                    <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/uservoice_btn.gif" width="660" height="30" alt="お客様の声へ" /></a>
+                    </div>
+                </div>
+
                 <div class="t03">
                     <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/topics_title.gif" alt="TOPICS トピックス" />
                     <div class="ts01">
                         <ul>
                             <li class="left">
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/topics_01.jpg" alt="FELIX HOUSE" />
-                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                                <a href="/felixhouse/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_01.jpg" alt="FELIX HOUSE" /></a>
+                                <p class="mobileHidden">より快適な住まいを長く住んでもらうための家づくりのこだわりをご覧ください。フェリックスハウスでしか実現しない唯一無二の住まいがここにあります。</p>
                             </li>
                             <li class="right">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_02.jpg" alt="数珠つなぎ" />
-                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                                <a href="/category/zyuzu/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_02.jpg" alt="数珠つなぎ" /></a>
+                                <p class="mobileHidden">フェリックスハウスが地域と一体となって地元の美味しいお店をご紹介する「数珠つなぎ」。ぜひオススメのお店巡りを楽しんでください。</p>
                             </li>
                             <li class="left">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_03.jpg" alt="TOWN COMMUNITY" />
-                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                                <a href="/felixestate/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_03.jpg" alt="フェリックスエステート" /></a>
+                                <p class="mobileHidden">売地の最新情報提供や現地のご案内、現地調査まで行います。物件を探しているけどなかなか見つからないという方、物件探しのことなら何でもおまかせ下さい！</p>
                             </li>
                         </ul>
                     </div>
                     <div class="ts01">
                         <ul>
                             <li class="right">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_04.jpg" width="200" height="230" alt="FELIX LIFE SUPPORT 24" />
-                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                                <a href="/felixlife/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_04.jpg" width="200" height="230" alt="FELIX LIFE SUPPORT 24" /></a>
+                                <p class="mobileHidden">お住いのトラブルに24時間体制でサポートいたします。もしものことがあった場合は、すぐに「フェリックスサポート24」へご相談ください。</p>
                             </li>
                             <li class="left">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_05.jpg" alt="STAFF" />
-                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                                <a href="/company/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_05.jpg" alt="STAFF" /></a>
+                                <p class="mobileHidden">住まいのことに精通した「不動産のプロ」である専門スタッフをご紹介。不動産のことなら、信頼できる当社のスタッフにお任せください！</p>
                             </li>
                             <li class="right">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/topics_06.jpg" alt="BLOG" />
-                                <p class="mobileHidden">○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○</p>
+                                <a href="/category/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_06.jpg" alt="BLOG" /></a>
+                                <p class="mobileHidden">スタッフの日常の出来事や、社内イベント、建築業界の専門的なお話などについてご紹介していきます。様々な役立つ情報が満載です。 </p>
                             </li>
                         </ul>
                     </div>
@@ -110,4 +125,3 @@
         </div>
     </div>
 <?php get_footer(); ?>
-    

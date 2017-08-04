@@ -3,23 +3,25 @@
     <div id="top">
         <div id="thumb-h" class="slider-pro">
             <div class="sp-slides">
+                <a href="/felixhouse/">
                 <div class="sp-slide">
                   <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider01.jpg" />
                 </div>
+                </a>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider02_01.jpg" />
+                  <a href="/category/event/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider02_01.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider03.jpg" />
+                  <a href="/felixestate/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider03.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider04.jpg" />
+                  <a href="http://sumica100.com" target="new"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider04.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider05.jpg" />
+                  <a href="/felixlife/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider05.jpg" /></a>
                 </div>
                 <div class="sp-slide">
-                  <img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider06.jpg" />
+                  <a href="/lineup/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider06.jpg" /></a>
                 </div>
               <!--/ sp-slides--></div>
               <div class="sp-thumbnails">
@@ -125,4 +127,3 @@
         </div>
     </div>
 <?php get_footer(); ?>
-    

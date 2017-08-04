@@ -38,7 +38,7 @@
                     <p>その他にもこだわって作っているところはたくさんあります。キッチンはシルバー調で統一していますし、カウンターや洗面所にニッチをつけて便利に収納できるように設計してもらいました。部屋に遊びもところどころ入れていて、リビングに黒板もつけてもらいました。子どものことも考えた設計も全て思い通りになっているので満足しています。何よりリビングを広くとることでみんながリビングにいる時間も増えましたし、一家団欒の時間が以前よりも断然増えたのが嬉しいです。</p>
                 </div>
                 <div class="in03">
-                    <div id="contact"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></div>
+                    <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
                 </div>
             </div>
    	    	<?php get_sidebar(); ?>

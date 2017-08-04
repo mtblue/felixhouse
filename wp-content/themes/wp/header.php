@@ -55,6 +55,11 @@
         }, function(){
                 $("ul.child",this).slideUp();
         });
+        if($(window).width() > 10) { // ウインドウサイズの幅が767ピクセルよりも大きい場合
+            $("#my-slider .sp-slide a").each(function(){
+                $(this).addClass("sp-selectable").css("cursor","pointer");
+            });
+        }
     });
 </script>
 <?php wp_head(); ?>
@@ -92,6 +97,7 @@
             <li><a href="/interview/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi05_off.jpg" width="192" height="50" alt="お客様の声" /></a></li>
         </ul>
     </div>
+    <!--
     <ul class="slimmenu">
         <li><a href="#">フェリックスハウス</a></li>
         <li><a href="#">商品ラインナップ</a></li>
@@ -99,4 +105,5 @@
         <li><a href="#">会社案内</a></li>
         <li><a href="#">お客様の声</a></li>
     </ul>
+    -->
     <span class="mobileHidden"><?php breadcrumb(); ?></span>
