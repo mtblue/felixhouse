@@ -500,6 +500,7 @@ Version:1.0
 	}
 	#wrapper #t02 #t02L .cm03 .cm03l {
 		float: left;
+		width: 250px;
 	}
 	#wrapper #t02 #t02L .cm03 .cm03r {
 		float: right;

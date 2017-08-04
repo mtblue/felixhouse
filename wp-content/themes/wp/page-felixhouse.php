@@ -22,16 +22,16 @@
                     </dl>
                 </div>
                 <div class="fh01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img02.jpg" />
+                    <img id="img02" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img02.jpg" />
                 </div>
                 <div class="fh01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img03.jpg" />
+                    <img id="img03" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img03.jpg" />
                 </div>
                 <div class="fh01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img04.jpg" />
+                    <img id="img04" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img04.jpg" />
                 </div>
                 <div class="fh01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img05.jpg" />
+                    <img id="img05" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img05.jpg" />
                 </div>
                 <div class="fh01">
                     <div class="ptitle">

@@ -27,8 +27,8 @@
                 <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi02.jpg"/>
                 <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi03.jpg"/>
                 <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi04.jpg"/>
-                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi05.jpg"/>
                 <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi06.jpg"/>
+                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi05.jpg"/>
               </div>
         <!--/ thumb-h--></div>
     </div>
@@ -81,7 +81,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/uservoice_img.jpg" width="660" height=“300” alt="uservoice" />
                     </div>
                     <div class="t03">
-                    <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/uservoice_btn.gif" width="660" height="30" alt="お客様の声へ" /></a>
+                    <a href="/interview/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/uservoice_btn.gif" width="660" height="30" alt="お客様の声へ" /></a>
                     </div>
                 </div>
 
