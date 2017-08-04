@@ -14,7 +14,7 @@
                 </div>
                 <div class="cm01">
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/outline_title.gif" />
+                        <img id ="outline_title" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/outline_title.gif" />
                 	</div>
                 	<table id="outlineArea">
                     	<tr>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="cm01">
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_title.gif" />
+                        <img id="president_title" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/president_title.gif" />
                     </div>
                     <div class="cm03">
                         <div class="cm03l">
@@ -116,7 +116,7 @@
                 </div>
                 <div class="cm01">
                     <div class="ptitle2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_title.gif" />
+                        <img id="staff_title" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/staff_title.gif" />
                     </div>
                     <ul>
                         <li>

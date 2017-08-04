@@ -28,24 +28,22 @@
                     </dl>
                     <dl>
                         <dt><a href="/company/">会社案内</a></dt>
-                        <dd>会社概要</dd>
-                        <dd>代表挨拶</dd>
-                        <dd>スタッフ紹介</dd>
+                        <dd><a href="/company/#outline_title">会社概要</a></dd>
+                        <dd><a href="/company/#president_title">代表挨拶</a></dd>
+                        <dd><a href="/company/#staff_title">スタッフ紹介</a></dd>
                     </dl>
                     <dl>
-                        <dt>フェリックスハウス</dt>
+                        <dt><a href="/felixhouse/">フェリックスハウス</a></dt>
                         <dd>フェリックスハウスの家づくり</dd>
                         <dt><a href="felixestate">フェリックスエステート</a></dt>
                         <dt>フェリックスタウン</dt>
                     </dl>
                     <dl>
                         <dt><a href="/felixlife/">フェリックスライフサポート</a></dt>
-                        <dt><a href="">販売実績</a></dt>
                         <dt>豊中の歴史</dt>
                     </dl>
                     <dl>
                         <dt><a href="/category/zyuzu/">数珠つなぎ</a></dt>
-                        <dt><a href="/category/community/">地域コミュニティ</a></dt>
                         <dt>売却物件募集</dt>
                     </dl>
                 </div>
