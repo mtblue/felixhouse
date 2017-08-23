@@ -6,8 +6,13 @@
         		<div class="ptitle">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
                 </div>
-                <div class="ts03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixestate_img01.jpg" />
+                <div class="t03">
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_img01.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/<?php echo $slug; ?>_img01_sp.jpg" />
+                    </div>
                 </div>
                 <div class="fe01">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixestate_img02.jpg" />

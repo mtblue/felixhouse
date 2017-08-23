@@ -6,56 +6,104 @@
         		<div class="ptitle">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
                 </div>
-                <div class="ts03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/company_img01.jpg" />
+                <div class="t03">
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_img01.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/<?php echo $slug; ?>_img01_sp.jpg" />
+                    </div>
                 </div>
                 <div class="cm01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/company_img02.jpg" />
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/company_img02.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <div class="cm04">
+                            <h3>会社理念</h3>
+                            <p>
+                                三幸住建の３つの理念をご紹介します。<br />
+                                この理念をブレることなく実践し、社員一同、お客様により信頼され、頼られる会社を目指します。
+                            </p>
+                            <ol>
+                                <li>地域密着経営</li>
+                                <li>顧客と従業員の満足</li>
+                                <li>住環境総合サービス業の確立</li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
                 <div class="cm01">
                     <div class="ptitle2">
                         <img id ="outline_title" src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/outline_title.gif" />
                 	</div>
-                	<table id="outlineArea">
-                    	<tr>
-                        	<th>会社名</th><td>株式会社 三幸住研</td>
-                        </tr>
-                    	<tr>
-                        	<th>所在地（本社）</th><td>〒560-0054　大阪府豊中市桜の町3丁目6-7</td>
-                        </tr>
-                    	<tr>
-                        	<th>TEL</th><td>06-4867-3000（代表）　06-6844-0105</td>
-                        </tr>
-                    	<tr>
-                        	<th>FAX</th><td>06-4867-3100（代表）　06-6844-1806</td>
-                        </tr>
-                        <tr>
-                        	<th>代表取締役</th><td>福原 昌樹</td>
-                        </tr>
-                    	<tr>
-                        	<th>会社創設</th><td>1971年7月19日</td>
-                        </tr>
-                    	<tr>
-                        	<th>資本金</th><td>1,000万円</td>
-                        </tr>
-                    	<tr>
-                        	<th>事業内容</th><td>一般建設業、建売業、不動産仲介業、賃貸業、不動産一般</td>
-                        </tr>
-                    	<tr>
-                        	<th>建設業者登録免許</th><td>大阪府知事許可(般-24)第97074</td>
-                        </tr>
-                    	<tr>
-                        	<th>宅地建物取引免許</th><td>大阪府知事免許(9)第25935</td>
-                        </tr>
-                    	<tr>
-                        	<th>その他登録</th><td>(財)住宅保証機構/登録番号21019061<br />(株)日本住宅保証検査機構(JIO/)登録番号A5000930</td>
-                        </tr>
-                    	<tr>
-                        	<th>所属団体</th><td>（社）大阪府宅地建物取引業協会 大阪支部<br />
-                            北摂不動産事業協同組合<br />（公社）近畿地区不動産公正取引協議会<br />
-                            関西不動産情報センター<br />（一社）京阪神木造住宅協議会<br />ロイヤルハウス 北摂北店</td>
-                        </tr>
-                    </table>
+                    <div class="mobileHidden">
+                    	<table id="outlineArea">
+                        	<tr>
+                            	<th>会社名</th><td>株式会社 三幸住研</td>
+                            </tr>
+                        	<tr>
+                            	<th>所在地（本社）</th><td>〒560-0054　大阪府豊中市桜の町3丁目6-7</td>
+                            </tr>
+                        	<tr>
+                            	<th>TEL</th><td>06-4867-3000（代表）　06-6844-0105</td>
+                            </tr>
+                        	<tr>
+                            	<th>FAX</th><td>06-4867-3100（代表）　06-6844-1806</td>
+                            </tr>
+                            <tr>
+                            	<th>代表取締役</th><td>福原 昌樹</td>
+                            </tr>
+                        	<tr>
+                            	<th>会社創設</th><td>1971年7月19日</td>
+                            </tr>
+                        	<tr>
+                            	<th>資本金</th><td>1,000万円</td>
+                            </tr>
+                        	<tr>
+                            	<th>事業内容</th><td>一般建設業、建売業、不動産仲介業、賃貸業、不動産一般</td>
+                            </tr>
+                        	<tr>
+                            	<th>建設業者登録免許</th><td>大阪府知事許可(般-24)第97074</td>
+                            </tr>
+                        	<tr>
+                            	<th>宅地建物取引免許</th><td>大阪府知事免許(9)第25935</td>
+                            </tr>
+                        	<tr>
+                            	<th>その他登録</th><td>(財)住宅保証機構/登録番号21019061<br />(株)日本住宅保証検査機構(JIO/)登録番号A5000930</td>
+                            </tr>
+                        	<tr>
+                            	<th>所属団体</th><td>（社）大阪府宅地建物取引業協会 大阪支部<br />
+                                北摂不動産事業協同組合<br />（公社）近畿地区不動産公正取引協議会<br />
+                                関西不動産情報センター<br />（一社）京阪神木造住宅協議会<br />ロイヤルハウス 北摂北店</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="pcHidden">
+                        <dl id="outlineArea">
+                            <dt>会社名</dt><dd>株式会社 三幸住研</dd>
+                            <dt>所在地（本社）</dt><dd>〒560-0054　大阪府豊中市桜の町3丁目6-7</dd>
+                            <dt>TEL</dt><dd>06-4867-3000（代表）　06-6844-0105</dd>
+                            <dt>FAX</dt><dd>06-4867-3100（代表）　06-6844-1806</dd>
+                            <dt>代表取締役</dt><dd>福原 昌樹</dd>
+                            <dt>会社創設</dt><dd>1971年7月19日</dd>
+                            <dt>資本金</dt><dd>1,000万円</dd>
+                            <dt>事業内容</dt><dd>一般建設業、建売業、不動産仲介業、賃貸業、不動産一般</dd>
+                            <dt>建設業者登録免許</dt><dd>大阪府知事許可(般-24)第97074</dd>
+                            <dt>宅地建物取引免許</dt><dd>大阪府知事免許(9)第25935</dd>
+                            <dt>その他登録</dt>
+                            <dd>
+                                (財)住宅保証機構/登録番号21019061<br />
+                                (株)日本住宅保証検査機構(JIO/)登録番号A5000930
+                            </dd>
+                            <dt>所属団体</dt>
+                            <dd>
+                                （社）大阪府宅地建物取引業協会 大阪支部<br />
+                                北摂不動産事業協同組合<br />（公社）近畿地区不動産公正取引協議会<br />
+                                関西不動産情報センター<br />（一社）京阪神木造住宅協議会<br />ロイヤルハウス 北摂北店
+                            </dd>
+                        </dl>
+                    </div>
                 </div>
                 <div class="cm01">
                     <div class="ptitle2">

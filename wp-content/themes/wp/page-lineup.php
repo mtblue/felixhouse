@@ -55,7 +55,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_01.jpg" width="150" />
+                                    <a href="http://www.royal-house.co.jp/lineup/smarthouse.html#b01" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_01.jpg" width="150" /></a>
                                 </dt>
                                 <dd>デザイン自由自在の<br />スマートハウス</dd>
                             </dl>
@@ -63,7 +63,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_02.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/kigocochi.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_02.jpg" /></a>
                                 </dt>
                                 <dd>木心地のいい家<br />Kicolo</dd>
                             </dl>
@@ -71,7 +71,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_03.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/small.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_03.jpg" /></a>
                                 </dt>
                                 <dd>小さな家<br />6l86house</dd>
                             </dl>
@@ -79,7 +79,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_04.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/kosodate.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_04.jpg" /></a>
                                 </dt>
                                 <dd>子育て住宅</dd>
                             </dl>
@@ -89,7 +89,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_05.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/nisetai.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_05.jpg" /></a>
                                 </dt>
                                 <dd>二世帯住宅</dd>
                             </dl>
@@ -97,7 +97,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_06.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/pet.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_06.jpg" /></a>
                                 </dt>
                                 <dd>ペットと楽しく<br />暮らす家</dd>
                             </dl>
@@ -105,7 +105,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_07.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/kukan.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_07.jpg" /></a>
                                 </dt>
                                 <dd>空間最大活用住宅</dd>
                             </dl>
@@ -113,7 +113,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_08.jpg" width="150" />
+                                    <a href="http://www.royal-house.co.jp/lineup/sankai.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_08.jpg" width="150" /></a>
                                 </dt>
                                 <dd>三階建住宅<br />アーバンステージ</dd>
                             </dl>
@@ -123,7 +123,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_09.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/hiraya.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_09.jpg" /></a>
                                 </dt>
                                 <dd>平屋住宅</dd>
                             </dl>
@@ -131,7 +131,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_10.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/small.html#c02" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_10.jpg" /></a>
                                 </dt>
                                 <dd>外暮らしの家</dd>
                             </dl>
@@ -139,7 +139,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_11.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/diy.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_11.jpg" /></a>
                                 </dt>
                                 <dd>DIYリフォーム<br />しやすい家</dd>
                             </dl>
@@ -147,7 +147,7 @@
                         <li>
                             <dl>
                                 <dt>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_12.jpg" />
+                                    <a href="http://www.royal-house.co.jp/lineup/chintai.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_12.jpg" /></a>
                                 </dt>
                                 <dd>土地活用の<br />戸建賃貸住宅</dd>
                             </dl>

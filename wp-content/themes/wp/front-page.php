@@ -1,51 +1,72 @@
 <?php get_header(); ?>
 
     <div id="top">
-        <div id="thumb-h" class="slider-pro">
-            <div class="sp-slides">
-                <div class="sp-slide">
-                    <a href="/felixhouse/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider01.jpg" /></a>
-                </div>
-                <div class="sp-slide">
-                  <a href="/category/event/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider02_01.jpg" /></a>
-                </div>
-                <div class="sp-slide">
-                  <a href="/felixestate/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider03.jpg" /></a>
-                </div>
-                <div class="sp-slide">
-                  <a href="http://sumica100.com" target="new"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider04.jpg" /></a>
-                </div>
-                <div class="sp-slide">
-                  <a href="/felixlife/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider05.jpg" /></a>
-                </div>
-                <div class="sp-slide">
-                  <a href="/lineup/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider06.jpg" /></a>
-                </div>
-              <!--/ sp-slides--></div>
-              <div class="sp-thumbnails">
-                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi01.jpg"/>
-                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi02.jpg"/>
-                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi03.jpg"/>
-                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi04.jpg"/>
-                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi06.jpg"/>
-                <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi05.jpg"/>
-              </div>
-        <!--/ thumb-h--></div>
+        <div class="mobileHidden">
+            <div id="thumb-h" class="slider-pro">
+                <div class="sp-slides">
+                    <div class="sp-slide">
+                        <a href="/felixhouse/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider01.jpg" /></a>
+                    </div>
+                    <div class="sp-slide">
+                      <a href="/category/event/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider02_01.jpg" /></a>
+                    </div>
+                    <div class="sp-slide">
+                      <a href="/felixestate/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider03.jpg" /></a>
+                    </div>
+                    <div class="sp-slide">
+                      <a href="http://sumica100.com" target="new"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider04.jpg" /></a>
+                    </div>
+                    <div class="sp-slide">
+                      <a href="/lineup/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider05.jpg" /></a>
+                    </div>
+                    <div class="sp-slide">
+                      <a href="/felixlife/"><img class="sp-image" src="<?php echo get_template_directory_uri(); ?>/images/slider06.jpg" /></a>
+                    </div>
+                  <!--/ sp-slides--></div>
+                  <div class="sp-thumbnails">
+                    <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi01.jpg"/>
+                    <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi02.jpg"/>
+                    <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi03.jpg"/>
+                    <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi04.jpg"/>
+                    <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi06.jpg"/>
+                    <img class="sp-thumbnail" src="<?php echo get_template_directory_uri(); ?>/images/sliderNavi05.jpg"/>
+                  </div>
+            <!--/ thumb-h--></div>
+        </div>
     </div>
-
+    <div class="pcHidden">
+        <div id="simple" class="slider-pro">
+            <div class="sp-slides">
+                <div class="sp-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/slider01_sp.jpg" /></div>
+                <div class="sp-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/slider02_sp.jpg" /></div>
+                <div class="sp-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/slider03_sp.jpg" /></div>
+                <div class="sp-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/slider04_sp.jpg" /></div>
+                <div class="sp-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/slider05_sp.jpg" /></div>
+                <div class="sp-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/slider06_sp.jpg" /></div>
+            </div>
+        </div>
+    </div>
 	<div id="wrapper">
     	<div id="t02">
     		<div id="t02L">
                 <div class="t03">
-                    <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" alt="WHAT'S NEW 新着情報" />
+                    <div class="mobileHidden">
+                        <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" alt="WHAT'S NEW 新着情報" />
+                    </div>
+                    <div class="pcHidden">
+                        <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" alt="WHAT'S NEW 新着情報" />
+                    </div>
                     <ul id="news">
                         <?php $loop = new WP_Query( array( 'post_type' => 'news', 'posts_per_page' => 7 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                        <li><?php the_time('Y.m.d'); ?><span class="mobileHidden">&nbsp;&nbsp;</span><span class="pcHidden"><br /></span>
+                        <li><?php the_time('Y.m.d'); ?>
                             <?php if(get_post_meta($post->ID,'URL',true)): ?>
-                            <a href="<?php echo get_post_meta($post->ID,"URL",true); ?>" target="_self"><?php the_title(); ?></a>
-                            <?php else: the_title(); endif; ?>
+                            <a href="<?php echo get_post_meta($post->ID,"URL",true); ?>" target="_self">
+                            <?php endif; ?>
                             <?php if(get_post_meta($post->ID,'新着情報',true)): ?>
-                            <br /><span style="margin-left:80px;"><?php echo get_post_meta($post->ID,"新着情報",true); ?></span>
+                            <span style="margin-left:80px;"><?php the_title(); ?><!--<?php echo get_post_meta($post->ID,"新着情報",true); ?>--></span>
+                            <?php endif; ?>
+                            <?php if(get_post_meta($post->ID,'URL',true)): ?>
+                            </a>
                             <?php endif; ?>
                         </li>
                         <?php endwhile; ?>
@@ -58,7 +79,12 @@
                         <?php if(get_post_meta($post->ID,'PDF',true)): ?>
                         <?php $pdfsrc1 = wp_get_attachment_url(get_post_meta($post->ID,"PDF",true)); ?>
                         <?php $pdfsrc2 = wp_get_attachment_url(get_post_meta($post->ID,"サムネイル",true)); ?>
-                        <li <?php if($i!=0) echo 'class="mobileHidden"' ; $i++; ?>><a href="<?php echo $pdfsrc1; ?>" target="_blank"><img src="<?php echo $pdfsrc2 ?>"  /></a></li>
+                        <li <?php if($i!=0) echo 'class="mobileHidden"' ; $i++; ?>>
+                            <div class="pcHidden">
+                                <p><?php the_time('Y.m.d'); ?></p>
+                            </div>
+                            <a href="<?php echo $pdfsrc1; ?>" target="_blank"><img src="<?php echo $pdfsrc2 ?>"  /></a>
+                        </li>
                         <?php endif; endwhile; ?>
                     </ul>
                 </div>
@@ -66,14 +92,33 @@
                     <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
                 </div>
                 <div class="t03">
-                   <img src="<?php echo get_template_directory_uri(); ?>/images/no-1.jpg" width="660" height=“156” alt="商品ラインナップ数No.1" />
+                   <img src="<?php echo get_template_directory_uri(); ?>/images/no-1.jpg" alt="商品ラインナップ数No.1" />
                 </div>
+                <div class="pcHidden">
+                    <div class="t04">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/hl_img_sp.jpg" />
+                    </div>
+                    <div class="t04">
+                        <a href="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sp/hl_btn_sp.jpg" />
+                        </a>
+                    </div>
+                    <div class="t04">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/uservoice_img_sp.jpg" />
+                    </div>
+                    <div class="t04">
+                        <a href="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/sp/uservoice_btn_sp.jpg" />
+                        </a>
+                    </div>
+                </div>
+                
                 <div class="mobileHidden">
                     <div class="t03">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/hl_img.jpg" width="660" height="845" alt="HOUSE LINEUP" />
                     </div>
                     <div class="t03">
-                    <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/hl_btn.gif" width="660" height="30" alt="さらに詳しい商品ラインナップへ" /></a>
+                    <a href="/lineup/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/hl_btn.gif" width="660" height="30" alt="さらに詳しい商品ラインナップへ" /></a>
                     </div>
                 </div>
                 <div class="mobileHidden">
@@ -106,7 +151,7 @@
                     <div class="ts01">
                         <ul>
                             <li class="right">
-                                <a href="/felixlife/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_04.jpg" width="200" height="230" alt="FELIX LIFE SUPPORT 24" /></a>
+                                <a href="/felixlife/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_04.jpg" alt="FELIX LIFE SUPPORT 24" /></a>
                                 <p class="mobileHidden">お住いのトラブルに24時間体制でサポートいたします。もしものことがあった場合は、すぐに「フェリックスサポート24」へご相談ください。</p>
                             </li>
                             <li class="left">
@@ -114,7 +159,7 @@
                                 <p class="mobileHidden">住まいのことに精通した「不動産のプロ」である専門スタッフをご紹介。不動産のことなら、信頼できる当社のスタッフにお任せください！</p>
                             </li>
                             <li class="right">
-                                <a href="/category/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_06.jpg" alt="BLOG" /></a>
+                                <a href="/category/blog/"><img src="<?php echo get_template_directory_uri(); ?>/images/topics_06.jpg" alt="BLOG" /></a>
                                 <p class="mobileHidden">スタッフの日常の出来事や、社内イベント、建築業界の専門的なお話などについてご紹介していきます。様々な役立つ情報が満載です。 </p>
                             </li>
                         </ul>

@@ -8,7 +8,12 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
                 </div>
                 <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview01_img.jpg" />
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_img.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/<?php echo $slug; ?>_img_sp.jpg" />
+                    </div>
                 </div>
                 <div class="t03">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview01_profile.jpg" />

@@ -7,7 +7,7 @@
 			<div id="footerR">
 				<div id="tel">
                     <img src="<?php echo get_template_directory_uri(); ?>/common/footer_tel.gif" width="250" height="45" alt="TEL.06-4867-3000" />
-                    <p>HOME｜SITE MAP｜PRIVACY</p>
+                    <p><a href="/">HOME</a>｜<a href="sitemap">SITE MAP</a>｜<a href="/privacy/">PRIVACY</a></p>
                 </div>
                 
 				<div id="contact">
@@ -21,10 +21,30 @@
 			<div id="companymenu">
                 <div>
                     <dl>
-                        <dt><a href="/">三幸住研 トップ</a></dt>
-                        <dt><a href="/works/">施工事例</a></dt>
-                        <dt><a href="/interview/">ユーザーボイス</a></dt>
+                        <dt><a href="http://sankoujyuken.jp">トップ</a></dt>                     
+                        <dt><a href="/interview/">お客様の声</a></dt>
                         <dt><a href="/contact/">お問い合わせ</a></dt>
+                        <dt><a href="/showroom/">ショールーム</a></dt>
+                    </dl>
+                    <dl>
+                        <dt><a href="/felixhouse/">フェリックスハウス</a></dt>
+                        <dd><a href="/felixhouse/#img02">未来を見据えた家。</a></dd>
+                        <dd><a href="/felixhouse/#img03">目には見えない住まいのこだわり。</a></dd>
+                        <dd><a href="/felixhouse/#img04">一般企業との比較。</a></dd>
+                       <dd><a href="/felixhouse/#img05">FELIXHOUSE6つの基準。</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="/lineup/">商品ラインナップ</a></dt>
+                        <dt><a href="/works/">施工事例</a></dt>
+                        <dt><a href="/felixestate/">フェリックスエステート</a></dt>
+                        <dt><a href="/felixlife/">フェリックスライフサポート</a></dt>
+                        <dt><a href="http://felix-town.jp" target="new">フェリックスタウン</a></dt>
+                    </dl>
+
+                    <dl>
+                        <dt>豊中の歴史</dt>
+                        <dt><a href="/category/blog/">現場ブログ</a></dt>
+                        <dt><a href="/category/zyuzu/">数珠つなぎ</a></dt>
                     </dl>
                     <dl>
                         <dt><a href="/company/">会社案内</a></dt>
@@ -32,20 +52,7 @@
                         <dd><a href="/company/#president_title">代表挨拶</a></dd>
                         <dd><a href="/company/#staff_title">スタッフ紹介</a></dd>
                     </dl>
-                    <dl>
-                        <dt><a href="/felixhouse/">フェリックスハウス</a></dt>
-                        <dd>フェリックスハウスの家づくり</dd>
-                        <dt><a href="felixestate">フェリックスエステート</a></dt>
-                        <dt>フェリックスタウン</dt>
-                    </dl>
-                    <dl>
-                        <dt><a href="/felixlife/">フェリックスライフサポート</a></dt>
-                        <dt>豊中の歴史</dt>
-                    </dl>
-                    <dl>
-                        <dt><a href="/category/zyuzu/">数珠つなぎ</a></dt>
-                        <dt>売却物件募集</dt>
-                    </dl>
+
                 </div>
 			</div>
 		</div>

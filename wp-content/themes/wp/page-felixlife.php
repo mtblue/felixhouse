@@ -6,8 +6,13 @@
         		<div class="ptitle">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
                 </div>
-                <div class="ts03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixlife_img01.jpg" />
+                <div class="t03">
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_img01.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/<?php echo $slug; ?>_img01_sp.jpg" />
+                    </div>
                 </div>
                 <div class="fl01">
                     <dl>
@@ -17,6 +22,9 @@
                             「お住い」や「おからだ」にもしものことがあった場合は、すぐに「フェリックスサポート24」へご相談ください。
                         </dd>
                     </dl>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixlife_img02.jpg" />
+                    </div>
                 </div>
                 <div class="fl01">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixlife_support01.jpg" />

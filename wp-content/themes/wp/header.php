@@ -9,7 +9,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="keywords" content="FELIX HOUSE,住まいのパイオニアだからできること" />
-<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php wp_title ( '|', true,'right' ); ?><?php bloginfo('name'); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css"/>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
@@ -42,6 +42,13 @@
                 }
             }
         });
+        $('#simple').sliderPro({
+            width: "80%",//横幅
+            height: 500,
+            arrows: true,//左右の矢印
+            buttons: true,//ナビゲーションボタン
+            slideDistance:0,//スライド同士の距離
+        });
         $('.slimmenu').slimmenu(
         {
             resizeWidth: '960',
@@ -69,7 +76,12 @@
 	<div id="header">
     	<div id="headerR">
     		<div id="headerRL">
-    			<h1>豊中市の新築一戸建・リフォーム・賃貸住宅のことなら三幸住研にお任せ下さい。</h1>
+    		    <div class="mobileHidden">
+    			    <h1>豊中の工務店、注文住宅・建築・新築一戸建・土地探しのことならフェリックスハウスにお任せ下さい。</h1>
+    		    </div>
+    		    <div class="pcHidden">
+    		        <h1>豊中市の新築一戸建・リフォーム・賃貸住宅のことなら三幸住研にお任せ下さい。</h1>
+    		    </div>
     		</div>
     		<div id="headerRR">
     			<p id="headercontact">
@@ -97,13 +109,11 @@
             <li><a href="/interview/"><img src="<?php echo get_template_directory_uri(); ?>/common/globalNavi05_off.jpg" width="192" height="50" alt="お客様の声" /></a></li>
         </ul>
     </div>
-    <!--
     <ul class="slimmenu">
-        <li><a href="#">フェリックスハウス</a></li>
-        <li><a href="#">商品ラインナップ</a></li>
-        <li><a href="#">施工事例</a></li>
-        <li><a href="#">会社案内</a></li>
-        <li><a href="#">お客様の声</a></li>
+        <li><a href="/felixhouse/">フェリックスハウス</a></li>
+        <li><a href="/lineup/">商品ラインナップ</a></li>
+        <li><a href="/works/">施工事例</a></li>
+        <li><a href="/company/">会社案内</a></li>
+        <li><a href="/interview/">お客様の声</a></li>
     </ul>
-    -->
     <span class="mobileHidden"><?php breadcrumb(); ?></span>

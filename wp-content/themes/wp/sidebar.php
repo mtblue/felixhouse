@@ -9,6 +9,6 @@
    	    		<a href=""><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu08.gif" width="250" height="50" alt="社員大募集" /></a>
    	    		<a href="http://sumica100.com" target="new"><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu09.gif" width="250" height="50" alt="sumica 100" /></a>
    	    		<a href="http://www.a1-id.com" target="new"><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu10.gif" width="250" height="50" alt="A1・ID" /></a>
-   	    		<a href="http://felixtown.jp" target="new"><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu11.gif" width="250" height="50" alt="FELIX TOWN" /></a>
+   	    		<a href="http://felix-town.jp" target="new"><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu11.gif" width="250" height="50" alt="FELIX TOWN" /></a>
    	    		<a href="http://www.toyo-2.jp" target="new"><img src="<?php echo get_template_directory_uri(); ?>/common/sidemenu12.gif" width="250" height="50" alt="豊中報道" /></a>
 </div>

@@ -45,11 +45,14 @@ get_header(); ?>
             <?php if(have_posts()): while(have_posts()):the_post(); ?>
               <div class="btitle"><?php the_title(); ?></div>
               <p class="cate"><?php the_category(', '); ?></p>
-              <div class="thumbnail"><?php the_post_thumbnail(); ?></div>
-              <pre><?php the_content(); ?></pre>
-              
+              <div class="thumbnail"><?php the_post_thumbnail(); ?></div> 
+              <?php 
+              $content = get_the_content(); 
+              $content = preg_replace("/\n/","<br />",$content); 
+              echo $content; 
+              ?>   
             <?php endwhile; endif; ?>
-              
+
             </div>
           </div>
             <?php get_sidebar(); ?>

@@ -17,9 +17,9 @@
                             <?php endif; ?>
                         <?php endif; ?>
                         <?php if(get_post_meta($post->ID,'コメント',true)): ?>
-                            <?php $comsrc1 = get_post_meta($post->ID,"コメント",true); ?>
+                            <?php $comsrc1 = nl2br(get_post_meta($post->ID,"コメント",true)); ?>
                             <li class="wfr">
-                                <pre><?php echo $comsrc1; ?></pre>
+                                <p><?php echo $comsrc1; ?></p>
                             </li>
                     </ul>
                     <?php endif; endwhile; ?>

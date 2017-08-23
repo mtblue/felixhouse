@@ -8,7 +8,12 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
                 </div>
                 <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img01.jpg" />
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_img01.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/felixhouse_img01_sp.jpg" />
+                    </div>
                 </div>
                 <div class="fh01">
                     <dl>
@@ -59,7 +64,7 @@
                 </div>
                 <div class="fh01">
                     <dl>
-                        <dt>繰り返し起こる地震に備える。</dt>
+                        <dt><p>繰り返し起こる地震に備える。</p></dt>
                     </dl>
                     <div class="fh02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img02.jpg" />
@@ -83,7 +88,7 @@
                 </div>
                 <div class="fh01">
                     <dl>
-                        <dt>1年中快適に暮らせる住まい。</dt>
+                        <dt><p>1年中快適に暮らせる住まい。</p></dt>
                     </dl>
                     <div class="fh02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img03.jpg" />
@@ -108,7 +113,7 @@
                 </div>
                 <div class="fh01">
                     <dl>
-                        <dt>住まいの長寿命対策。</dt>
+                        <dt><p>住まいの長寿命対策。</p></dt>
                     </dl>
                     <div class="fh02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img04.jpg" />
@@ -136,7 +141,7 @@
                 </div>
                 <div class="fh01">
                     <dl>
-                        <dt>お部屋の空気をキレイにして健康を守る。</dt>
+                        <dt><p>お部屋の空気をキレイにして健康を守る。</p></dt>
                     </dl>
                     <div class="fh02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img05.jpg" />
@@ -164,15 +169,12 @@
                 </div>
                 <div class="fh01">
                     <dl>
-                        <dt>国が定めた認定基準を満たす住まい。</dt>
+                        <dt><p>国が定めた認定基準を満たす住まい。</p></dt>
                     </dl>
                     <div class="fh02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img06.jpg" />
                         <p>
-                            永く安心して住み続けられる家を目指して、フェリックスハウスでは標準で長期優良住宅仕様になっています。「長期優良住宅」とは標準仕様で様々な国の基準をクリアする住まいです。認定を受けたことによる資産価値だけでなく、住宅ローン控除と各種税制が優遇されます。<br />
-                            <br />
-                            長期優良住宅仕様<br />
-                            平成21年6月4日に「長期優良住宅の普及の促進に関する法律」が施行されました。一定の基準を満たした認定長期優良住宅は、税制面での優遇などを受けられます。
+                            永く安心して住み続けられる家を目指して、フェリックスハウスでは標準で長期優良住宅仕様になっています。「長期優良住宅」とは標準仕様で様々な国の基準をクリアする住まいです。認定を受けたことによる資産価値だけでなく、住宅ローン控除と各種税制が優遇されます。
                         </p>
                     </div>
                 </div>
@@ -180,10 +182,10 @@
                     <div class="fh03l">
                         <dl> 
                             <dt>
-                                木の素材を生かした革新的な構法。
+                                長期優良住宅仕様
                             </dt>
                             <dd>
-                                「ロイヤルSSS(スリーエス)構法」は認定プレカット工場でまるで匠の技をプログラミングしたような、ミリ単位の製材・加工された精密な柱や梁を熟練の技を持つ腕利き職人が組み立てる安心の家づくり。天然素材を生かしたフェリックスハウスに適合する革新的な構法です。
+                                平成21年6月4日に「長期優良住宅の普及の促進に関する法律」が施行されました。一定の基準を満たした認定長期優良住宅は、税制面での優遇などを受けられます。
                             </dd>
                         </dl>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img06_2.jpg" />
@@ -192,15 +194,25 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img06_3.jpg" />
                     </div>
                 </div>
-                
                 <div class="fh01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img07.jpg" />
+                    <dl>
+                        <dt><p>木の素材を生かした革新的な構法。</p></dt>
+                    </dl>
+                    <div class="fh02">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img07.jpg" />
+                        <p>
+                            「ロイヤルSSS(スリーエス)構法」は認定プレカット工場でまるで匠の技をプログラミングしたような、ミリ単位の製材・加工された精密な柱や梁を熟練の技を持つ腕利き職人が組み立てる安心の家づくり。天然素材を生かしたフェリックスハウスに適合する革新的な構法です。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="fh01">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img07_2.jpg" />
                 </div>
                 
                 <div class="fh01">
                     <dl>
-                        <dt>自然と家計に優しい未来の暮らし。</dt>
+                        <dt><p>自然と家計に優しい未来の暮らし。</p></dt>
                     </dl>
                     <div class="fh02">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/housespec_img08.jpg" />
@@ -212,8 +224,8 @@
                 <div class="fh03">
                     <div class="fh03l">
                         <dl> 
-                            <dt>ネット・ゼロ・エネルギー・ハウス<br />
-                            ZEH　【当社推奨オプション】
+                            <dt>ネット・ゼロ・エネルギー・ハウス ZEH<br />
+                           【当社推奨オプション】
                             </dt>
                             <dd>
                                 ZEHとは、高い「断熱」性能をベースに、高効率機器やHEMSによる「省エネ」、太陽光発電などによる「創エネ」を組み合わせることで、住まいの年間一次エネルギー消費量がおおむねゼロになる住まいです。

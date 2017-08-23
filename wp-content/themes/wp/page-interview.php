@@ -8,13 +8,18 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_title.gif" />
                 </div>
                 <div class="t03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_img.jpg" />
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/<?php echo $slug; ?>_img.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/<?php echo $slug; ?>_img_sp.jpg" />
+                    </div>
                 </div>
                 <div class="in01">
                     <div class="in01l">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_img01.jpg" />
                         <div class="in02">
-                            <p>3世代二世帯の家。</p>
+                            <p class="bold">3世代二世帯の家。</p>
                             <p>施主様：M様</p>
                         </div>
                         <a href="/interview01/"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_btn.jpg" /></a>
@@ -22,7 +27,7 @@
                     <div class="in01r">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_img02.jpg" />
                         <div class="in02">
-                            <p>広々LDKの開放的な家。</p>
+                            <p class="bold">広々LDKの開放的な家。</p>
                             <p>施主様：H様</p>
                         </div>
                         <a href="/interview02/"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/interview_btn.jpg" /></a>
