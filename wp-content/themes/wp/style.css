@@ -866,7 +866,6 @@ Version:1.0
 	#nav,
 	#footer #footermain #footerR #tel,
 	#wrapper #t02 #t02R,
-	#wrapper #t02 #t02L #contact,
 	.mobileHidden {
 		display: none;
 	}
@@ -889,6 +888,13 @@ Version:1.0
 		margin-top: 30px;
 		margin-bottom: 30px;
 		text-align: left;
+	}
+	#wrapper #t02 #t02L #contact {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	#wrapper #t02 #t02L #contact img {
+		width: 100%;
 	}
 	#wrapper #t02 #t02L .t03 img,
 	#wrapper #t02 #t02L .t04 img {
@@ -1165,6 +1171,71 @@ Version:1.0
 		font-size: 1em;
 		text-align: left;
 	}
+	/* lineup */
+	#wrapper #t02 #t02L .ptitle2 {
+	    border-bottom: 5px solid #E1DDCF;
+		padding-bottom: 5px;
+		margin-bottom: 20px;
+		clear: both;
+	}
+	#wrapper #t02 #t02L .lu01 {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		text-align: center;
+		clear: both;
+	}
+	#wrapper #t02 #t02L .lu01 img,
+	#wrapper #t02 #t02L .lu04 img {
+		width: 100%;
+	}
+	#wrapper #t02 #t02L .lu01 p {
+		font-size: 1.2em;
+		font-weight: bold;
+		line-height: 1.4em;
+		margin-bottom: 10px;
+	}
+	#wrapper #t02 #t02L .lu02 ul {
+		width: 100%;
+	}
+	#wrapper #t02 #t02L .lu02 li.left {
+		float: left;
+		margin-bottom: 20px;
+		clear:both;
+	}
+	#wrapper #t02 #t02L .lu02 li.right {
+		float: right;
+		margin-bottom: 20px;
+	}
+	#wrapper #t02 #t02L .lu02 dd {
+		margin-top: 5px;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	#wrapper #t02 #t02L .lu03 {
+		clear: both;
+		margin-top: 310px;
+	}
+	#wrapper #t02 #t02L .lu03 dt {
+		font-size: 1.2em;
+		font-weight: bold;
+		line-height: 26px;
+		margin-bottom: 10px;
+	}
+	#wrapper #t02 #t02L .lu03 dd {
+		font-size: 1em;
+		line-height: 1.2em;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	#wrapper #t02 #t02L .lu04 {
+		margin-top: 30px;
+		padding-top: 30px;
+		margin-bottom: 40px;
+		text-align: center;
+		clear: both;
+	}
 	/* works & company */
 	#wrapper #t02 #t02L .cm01 {
 		margin-top: 10px;
@@ -1178,13 +1249,17 @@ Version:1.0
 		float: left;
 		width: 45%;
 		margin-left: 4%;
-		margin-bottom: 4%;
+		margin-bottom: 2%;
 	}
 	#wrapper #t02 #t02L .cm01 .right {
 		float: right;
 		width: 45%;
 		margin-right: 4%;
-		margin-bottom: 4%;
+		margin-bottom: 2%;
+	}
+	#wrapper #t02 #t02L .cm01 .left img,
+	#wrapper #t02 #t02L .cm01 .right img {
+		margin-bottom: 0;
 	}
 	#wrapper #t02 #t02L .cm01 .cm04 {
 		width: 100%;

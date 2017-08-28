@@ -24,8 +24,16 @@
                     </ul>
                     <?php endif; endwhile; ?>
                 </div>
-                <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
-                <div id="contact_sp"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn_sp.jpg"></div>
+                <div class="cm01">
+                    <div id="contact">
+                        <div class="mobileHidden">
+                            <a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a>
+                        </div>
+                        <div class="pcHidden">
+                            <a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/contact_btn_sp.jpg"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
    	    	<?php get_sidebar(); ?>
         </div>

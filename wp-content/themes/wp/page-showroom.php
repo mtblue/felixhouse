@@ -70,8 +70,15 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.155592274358!2d135.46136391523493!3d34.80202718040852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000fa8e7b96bb1f%3A0xd55625b827e5222e!2z44CSNTYwLTAwNTQg5aSn6Ziq5bqc6LGK5Lit5biC5qGc44Gu55S677yT5LiB55uu77yW4oiS77yX!5e0!3m2!1sja!2sjp!4v1500133663653" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <p class="sr05">専用駐車場あり　キッズコーナーあり</p>
                 </div>
-                <div class="cm02">
-                    <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
+                <div class="cm01">
+                    <div id="contact">
+                        <div class="mobileHidden">
+                            <a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a>
+                        </div>
+                        <div class="pcHidden">
+                            <a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/contact_btn_sp.jpg"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
    	    	<?php get_sidebar(); ?>

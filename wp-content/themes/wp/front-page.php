@@ -99,7 +99,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sp/hl_img_sp.jpg" />
                     </div>
                     <div class="t04">
-                        <a href="">
+                        <a href="/lineup/">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/sp/hl_btn_sp.jpg" />
                         </a>
                     </div>
@@ -107,7 +107,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sp/uservoice_img_sp.jpg" />
                     </div>
                     <div class="t04">
-                        <a href="">
+                        <a href="/interview/">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/sp/uservoice_btn_sp.jpg" />
                         </a>
                     </div>

@@ -4,8 +4,13 @@
     	<div id="t02">
 	    
     		<div id="t02L">
-                <div class="ts03">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img01.jpg" />
+                <div class="lu01">
+                    <div class="mobileHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img01.jpg" />
+                    </div>
+                    <div class="pcHidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/sp/<?php echo $slug; ?>/lineup_img_sp.jpg" />
+                    </div>
                 </div>
                 <div class="lu01">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/felixhouse_A1ID_logo.jpg" />
@@ -18,16 +23,16 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02.jpg" />
                 </div>
                 <ul class="lu02">
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_01.jpg" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_02.jpg" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_03.jpg" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_04.jpg" /></li>
+                    <li class="left"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_01.jpg" /></li>
+                    <li class="right"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_02.jpg" /></li>
+                    <li class="left"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_03.jpg" /></li>
+                    <li class="right"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_04.jpg" /></li>
                 </ul>
                 <ul class="lu02">
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_05.jpg" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_06.jpg" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_07.jpg" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_08.jpg" /></li>
+                    <li class="left"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_05.jpg" /></li>
+                    <li class="right"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_06.jpg" /></li>
+                    <li class="left"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_07.jpg" /></li>
+                    <li class="right"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img02_08.jpg" /></li>
                 </ul>
                 <div class="lu03">
                     <dl>
@@ -52,15 +57,15 @@
                 </div>
                 <div class="ts03">
                     <ul class="lu02">
-                        <li>
+                        <li class="left">
                             <dl>
                                 <dt>
-                                    <a href="http://www.royal-house.co.jp/lineup/smarthouse.html#b01" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_01.jpg" width="150" /></a>
+                                    <a href="http://www.royal-house.co.jp/lineup/smarthouse.html#b01" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_01.jpg" /></a>
                                 </dt>
                                 <dd>デザイン自由自在の<br />スマートハウス</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="right">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/kigocochi.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_02.jpg" /></a>
@@ -68,7 +73,7 @@
                                 <dd>木心地のいい家<br />Kicolo</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="left">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/small.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_03.jpg" /></a>
@@ -76,7 +81,7 @@
                                 <dd>小さな家<br />6l86house</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="right">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/kosodate.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_04.jpg" /></a>
@@ -86,7 +91,7 @@
                         </li>
                     </ul>
                     <ul class="lu02">
-                        <li>
+                        <li class="left">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/nisetai.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_05.jpg" /></a>
@@ -94,7 +99,7 @@
                                 <dd>二世帯住宅</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="right">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/pet.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_06.jpg" /></a>
@@ -102,7 +107,7 @@
                                 <dd>ペットと楽しく<br />暮らす家</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="left">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/kukan.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_07.jpg" /></a>
@@ -110,17 +115,17 @@
                                 <dd>空間最大活用住宅</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="right">
                             <dl>
                                 <dt>
-                                    <a href="http://www.royal-house.co.jp/lineup/sankai.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_08.jpg" width="150" /></a>
+                                    <a href="http://www.royal-house.co.jp/lineup/sankai.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_08.jpg" /></a>
                                 </dt>
                                 <dd>三階建住宅<br />アーバンステージ</dd>
                             </dl>
                         </li>
                     </ul>
                     <ul class="lu02">
-                        <li>
+                        <li class="left">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/hiraya.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_09.jpg" /></a>
@@ -128,7 +133,7 @@
                                 <dd>平屋住宅</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="right">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/small.html#c02" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_10.jpg" /></a>
@@ -136,7 +141,7 @@
                                 <dd>外暮らしの家</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="left">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/diy.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_11.jpg" /></a>
@@ -144,7 +149,7 @@
                                 <dd>DIYリフォーム<br />しやすい家</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="right">
                             <dl>
                                 <dt>
                                     <a href="http://www.royal-house.co.jp/lineup/chintai.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/lineup_img03_12.jpg" /></a>
@@ -157,8 +162,15 @@
                 <div class="lu01">
                     <a href="http://www.royal-house.co.jp/lineup/lineup.html" target="new"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $slug; ?>/royalhouse_btn.jpg" /></a>
                 </div>
-                <div class="lu01">
-                    <div id="contact"><a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a></div>
+                <div class="cm01">
+                    <div id="contact">
+                        <div class="mobileHidden">
+                            <a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/contact/contact_btn.jpg"></a>
+                        </div>
+                        <div class="pcHidden">
+                            <a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/contact_btn_sp.jpg"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
    	    	<?php get_sidebar(); ?>

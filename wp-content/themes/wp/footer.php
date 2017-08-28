@@ -11,10 +11,16 @@
                 </div>
                 
 				<div id="contact">
-                    <p class="mobileHidden">住まいに関するご相談・ご質問などお気軽にお問い合わせ下さい。</p>
-					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact01.gif" alt="資料請求" /></a>
-					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact02.gif" alt="お問い合わせ" /></a>
-			</div>
+				    <div class="mobileHidden">
+                        <p>住まいに関するご相談・ご質問などお気軽にお問い合わせ下さい。</p>
+    					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact01.gif" alt="資料請求" /></a>
+    					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/common/footer_contact02.gif" alt="お問い合わせ" /></a>
+			        </div>
+			        <div class="pcHidden">
+    					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/footer_contact01.png" alt="資料請求" /></a>
+    					<a href="/contact/"><img src="<?php echo get_template_directory_uri(); ?>/images/sp/footer_contact02.png" alt="お問い合わせ" /></a>
+			        </div>
+			    </div>
 			</div>
 		</div>
 		<div id="company">
