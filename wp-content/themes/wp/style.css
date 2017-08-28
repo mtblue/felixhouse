@@ -1201,10 +1201,16 @@ Version:1.0
 		float: left;
 		margin-bottom: 20px;
 		clear:both;
+		width: 47%;
 	}
 	#wrapper #t02 #t02L .lu02 li.right {
 		float: right;
 		margin-bottom: 20px;
+		width: 47%;
+	}
+	#wrapper #t02 #t02L .lu02 li.left img,
+	#wrapper #t02 #t02L .lu02 li.right img {
+		width: 100%;
 	}
 	#wrapper #t02 #t02L .lu02 dd {
 		margin-top: 5px;
