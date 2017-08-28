@@ -90,6 +90,7 @@
                 </div>
                 <div class="t03">
                     <a href="/webflier/"><img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/flier_btn.gif" width="660" height="30" alt="WEBチラシ一覧" /></a>
+                    <a href="/webflier/"><img class="pcHidden" src="<?php echo get_template_directory_uri(); ?>/images/sp/flier_btn_sp.jpg" alt="WEBチラシ一覧" /></a>
                 </div>
                 <div class="t03">
                    <img src="<?php echo get_template_directory_uri(); ?>/images/no-1.jpg" alt="商品ラインナップ数No.1" />

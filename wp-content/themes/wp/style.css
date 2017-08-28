@@ -899,6 +899,7 @@ Version:1.0
 	#wrapper #t02 #t02L .t03 img,
 	#wrapper #t02 #t02L .t04 img {
 	    width: 90%;
+	    margin-bottom: 20px;
 	}
 	#wrapper #t02 #t02L .t03 .pcHidden .title {
 		border-top: 3px solid black;
