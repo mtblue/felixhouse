@@ -152,13 +152,18 @@ Version:1.0
 		float: left;
 	    width: 660px;
 	}
+	#wrapper #t02 #t02L .title {
+		width: 100%;
+	    border-bottom: 7px solid #E1DDCF;
+	    margin-bottom: 10px;
+	}
 	#wrapper #t02 #t02L .ptitle{
 	    border-bottom: 7px solid #E1DDCF;
 		margin-top: 5px;
 		margin-bottom: 20px;
 	}
 	#wrapper #t02 #t02L .t03{
-	    margin-bottom: 60px;
+	    margin-bottom: 40px;
 	}
 	#wrapper #t02 #t02L .t03 .ts01{
 	    margin-top: 30px;
@@ -187,6 +192,9 @@ Version:1.0
 	    padding-top: 9px;
 	    height: 25px;
 	    border-bottom: 1px dashed gray;
+	}
+	#wrapper #t02 #t02L .t03 #wf {
+		margin-top: 10px;
 	}
 	#wrapper #t02 #t02L .t03 #wf li {
 		border: 8px solid #E1DDCF;

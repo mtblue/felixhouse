@@ -50,8 +50,8 @@
     	<div id="t02">
     		<div id="t02L">
                 <div class="t03">
-                    <div class="mobileHidden">
-                        <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" alt="WHAT'S NEW 新着情報" />
+                    <div class="title">
+                        <img class="mobileHidden" src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" alt="WHAT'S NEW 新着情報" />
                     </div>
                     <div class="pcHidden">
                         <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/news_title.gif" alt="WHAT'S NEW 新着情報" />
@@ -73,7 +73,7 @@
                     </ul>
                 </div>
                 <div class="t03">
-                    <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/flier_title.gif" alt="WEB FLIER WEBチラシ" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/flier_title.gif" alt="WEB FLIER WEBチラシ" />
                     <ul id="wf">
                         <?php $i=0; $loop = new WP_Query( array( 'post_type' => 'web', 'posts_per_page' => 3 ) ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
                         <?php if(get_post_meta($post->ID,'PDF',true)): ?>
@@ -132,7 +132,9 @@
                 </div>
 
                 <div class="t03">
-                    <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/topics_title.gif" alt="TOPICS トピックス" />
+                    <div class="title">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/topics_title.gif" alt="TOPICS トピックス" />
+                    </div>
                     <div class="ts01">
                         <ul>
                             <li class="left">
